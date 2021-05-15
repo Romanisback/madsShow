@@ -1,0 +1,71 @@
+header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    // padding: 15px 0;
+    transition: all 1.4s;
+    z-index: 20;
+    box-shadow: 0 0 10px 0 rgba($color: #0019FF, $alpha: 0.1);
+}
+.container{
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    .header_wrap{
+        font-family: $font-family-normal;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .logo_wrap{
+            position: relative;
+            z-index: 1;
+            color: $primary;
+            text-decoration: none;
+            img{
+                margin-bottom: 10px;
+                vertical-align: middle;
+                border: 0;
+            }
+        }
+        nav{
+            display: block;
+            ul{
+                font-family: $font-family-normal;
+                list-style: none;
+                margin: 0 -20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                li{
+                    display: inline-block;
+                    position: relative;
+                    line-height: 50px;
+                    text-align: center;
+                    -webkit-transition: all .4s;
+                    -o-transition: all .4s;
+                    transition: all .4s;
+                    a{
+                       
+                        position: relative;
+                        font-size: 16px;
+                        line-height: 30px;
+                        font-weight: 600;
+                        padding: 0 50px;
+                        @media only screen and (max-width: 1600px){
+                            padding: 0 15px;
+                        }
+                    }
+                    a:hover{
+                        color: $color-red;
+                       
+                    }
+                }
+            }
+        }
+        @import 'blocks/btn_style_header';
+    }
+}
+
