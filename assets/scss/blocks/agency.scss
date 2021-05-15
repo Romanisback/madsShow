@@ -1,0 +1,36 @@
+.agency{
+    display: flex;
+    padding: 86px 0;
+    .container_content{
+        display: flex;
+        .agency__first-item{
+            padding-left: 15px;
+            padding-right: 15px;
+            width: 50%;
+            text-align: center;
+            padding-top: 200px;
+            h1{
+                font-size: 85px;
+                font-weight: 700;
+                margin-bottom: 16px;
+            }
+            p{
+                font-size: 22px;
+                font-weight: 500;
+                color: $agency-p;
+            }
+        }
+        .agency__second-item{
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            width: 50%;
+            height: 720px;
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+            background-position-x: -13px;
+            background-position-y: 93px;
+            background-image: url(/assets/images/main/but.svg);
+        }
+}
+}
