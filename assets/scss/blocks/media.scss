@@ -6,10 +6,16 @@
     }    
 }
 
-@media (min-width: 1920px){
+@media (min-width: 1600px){
     .container{
-        width: 1900px;
+        width: 1600px;
         padding-right: 100px;
         padding-left: 100px;
     }    
+    main{
+        // background-image: url(/assets/images/background-site1.png);
+        background-position: 27% 770px;
+    }
+   
 }
+
