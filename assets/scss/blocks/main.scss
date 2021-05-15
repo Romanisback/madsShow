@@ -6,6 +6,14 @@ main{
     display: flex;
     flex-direction: column;
     
+    h2{
+        color: $primary;
+        font-size: 42px;
+        line-height: 52.8px;
+        font-weight: 700;
+        position: relative;
+        text-align: center;
+    }
     /* Add agency */
     @import "blocks/agency.scss";
     /* Add bloggers */

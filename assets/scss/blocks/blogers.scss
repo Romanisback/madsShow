@@ -7,4 +7,21 @@
     background-image: url(/assets/images/bloggers/our_bloggers.svg);
     background-repeat: no-repeat;
     background-position: 49% 70%;
+    .blogers_section{
+        height: 876px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    h2{
+        margin-bottom: 50px;
+    }
+    p{
+        text-align: center;
+        font-size: 22px;
+        font-weight: 500;
+        color: #707b9b;
+        margin-bottom: 70px;
+    }
 }
