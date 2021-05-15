@@ -1,0 +1,11 @@
+.slider{
+    border: 2px solid $primary;
+    min-width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    .slider-container{
+        display: flex;
+        background: orange;
+        transition: all ease 1s;
+    }
+}
