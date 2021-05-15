@@ -6,7 +6,9 @@ main{
     display: flex;
     flex-direction: column;
     
+    /* Add agency */
     @import "blocks/agency.scss";
-    @import "blocks/bloggers.scss";
+    /* Add bloggers */
+    @import "blocks/blogers.scss";
 
 }
