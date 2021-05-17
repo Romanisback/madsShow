@@ -41,4 +41,11 @@
     //     sliderContainer.style.transform = 'translate(-' + count * width + 'px';
     // }
     
+// in a module
+$('#item'); // <= just works
+jQuery('#item'); // <= just works
+// $ is automatically set to the exports of module "jquery"
 
+$(function(){
+    console.log('looser');
+})

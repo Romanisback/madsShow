@@ -1,5 +1,7 @@
 @import 'vars';
 @import 'vendor/reset.scss';
+@import 'vendor/slick.scss';
+@import 'vendor/slick-theme.scss';
 
 *,
 *:before,
@@ -44,5 +46,5 @@ body {
 /* Main generate */
 @import "blocks/main.scss";
 
-/* Media queryes */ 
+/* Media queryes always end*/ 
 @import "blocks/media.scss";
