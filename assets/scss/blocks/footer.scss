@@ -1,5 +1,73 @@
 footer{
-    padding: 100px 0;
+    padding: 80px 0;
     width: 100%;
     background: $primary;
+    font-family: $font-family-normal;
+    .container{
+        .footer-content{
+            display: flex;
+            flex-wrap: wrap;
+            width: 1064px;
+            margin: 0 auto;
+            max-width: 100%;
+            justify-content: space-between;
+            .footer-column{
+                .footer-title{
+                    font-weight: 700;
+                    margin-bottom: 25px;
+                    font-size: 24px;
+                    line-height: 27px;
+                    color: $white;
+                }
+                .footer-btn-style{
+                    padding: 10px 20px;
+                    color: $primary;
+                    z-index: 1;
+                    display: inline-block;
+                    font-weight: 700;
+                    line-height: 20px;
+                    border-radius: 5px;
+                    position: relative;
+                    transition: all .7s;
+                    text-transform: uppercase;
+                    background-color: $footer-style-lines;
+                }
+                .social-links{
+                    a{
+                        width: 40px;
+                        
+                        color: $footer-style-lines;
+                        line-height: 38px;
+                        text-align: center;
+                        margin-right: 20px;
+                        -webkit-border-radius: 4px;
+                        border-radius: 4px;
+                        display: inline-block;
+                        border: 1px solid $footer-style-lines;
+                    }
+                }
+            }
+            .contacts{
+                .contacts-container{
+                    display: inline-block;
+                    .item{
+                        display: flex;
+                        align-items: center;
+                        text-decoration: none;
+                        align-self: center;
+                        color: $white;
+                        color: $white;
+                        margin-bottom: 10px;
+                        a{
+                            color: $white;
+                        }
+                        img{
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
 }
