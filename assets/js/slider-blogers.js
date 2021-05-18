@@ -49,18 +49,18 @@ jQuery('#item'); // <= just works
 $(document).ready(function(){
     $('.slider-blogers').slick({
         infinite: true,
-        speed: 300,
+        speed: 800,
         slidesToShow: 4,
         slidesToScroll: 1,
         responsive: [
-          {
-            breakpoint: 1600,
-            settings: {
-              slidesToShow: 5,
-              slidesToScroll: 1,
-              infinite: true,
-            }
-          },
+        //   {
+        //     breakpoint: 1600,
+        //     settings: {
+        //       slidesToShow: 5,
+        //       slidesToScroll: 1,
+        //       infinite: true,
+        //     }
+        //   },
           {
             breakpoint: 992,
             settings: {

@@ -3,6 +3,50 @@
     width: 100%;
     padding: 0 60px;
     // min-width: 0;
+    .slick-track{
+        a{
+            border-radius: 50%;
+            margin: 0 20px;
+            overflow: hidden;
+            position: relative;
+            img{
+                width: 100%;
+            }
+            .title{
+                color: #fff;
+                font-weight: 600;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                padding: 15px;
+                opacity: 0;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                -webkit-align-items: center;
+                -ms-flex-align: center;
+                align-items: center;
+                -webkit-box-pack: center;
+                -webkit-justify-content: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                text-align: center;
+                -webkit-border-radius: 50%;
+                border-radius: 50%;
+                -webkit-transition: all .3s;
+                -o-transition: all .3s;
+                transition: all .3s;
+                background-color: rgba(0,0,0,.75);
+            }
+        }
+        a:hover .title{
+            opacity: 1;
+        }
+    }
 }
 
 
