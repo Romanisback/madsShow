@@ -9,7 +9,6 @@
     box-sizing: border-box;
 }
 
-
 html{
     font-size: 62.5%;
 }
@@ -45,6 +44,7 @@ body {
 
 /* Main generate */
 @import "blocks/main.scss";
+@import "blocks/footer.scss";
 
 /* Media queryes always end*/ 
 @import "blocks/media.scss";

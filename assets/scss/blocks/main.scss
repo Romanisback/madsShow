@@ -4,7 +4,10 @@ main{
     background-image: url(/assets/images/background-site.svg);
     background-position: 42% 770px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    
     
     h2{
         color: $primary;
