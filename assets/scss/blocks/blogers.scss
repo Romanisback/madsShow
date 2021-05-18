@@ -14,6 +14,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        @import "blocks/slider-blogers.scss";
     }
     h2{
         margin-bottom: 50px;
@@ -25,5 +26,5 @@
         color: #707b9b;
         margin-bottom: 70px;
     }
-    @import "blocks/slider-blogers.scss";
+   
 }

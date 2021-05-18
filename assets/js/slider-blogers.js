@@ -46,6 +46,42 @@ $('#item'); // <= just works
 jQuery('#item'); // <= just works
 // $ is automatically set to the exports of module "jquery"
 
-$(function(){
-    console.log('looser');
+$(document).ready(function(){
+    $('.slider-blogers').slick({
+        infinite: true,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1600,
+            settings: {
+              slidesToShow: 5,
+              slidesToScroll: 1,
+              infinite: true,
+            }
+          },
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 420,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+    })
 })
