@@ -1,5 +1,5 @@
 main{
-    height: 2021px; //changed
+    height: 100%; //changed
     background-repeat: no-repeat;
     background-image: url(/assets/images/background-site.svg);
     background-position: 42% 770px;
@@ -21,5 +21,5 @@ main{
     @import "blocks/agency.scss";
     /* Add bloggers */
     @import "blocks/blogers.scss";
-
+    @import "blocks/cases.scss";
 }
