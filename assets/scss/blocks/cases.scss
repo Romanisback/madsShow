@@ -1,8 +1,10 @@
 .cases{
     padding: 60px 0;
+   
     .container{
         h2{
             margin-bottom: 80px;
         }
+        @import "blocks/cases-slider.scss";
     }
 }
