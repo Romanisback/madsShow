@@ -12,7 +12,7 @@
                     background-size: cover;
                     background-position: center;
                     background-repeat: no-repeat;
-                    backdrop-filter: blur(1.5px);
+                    backdrop-filter: blur(2px);
                     border-radius: 15px;
                     overflow: hidden;    
                     /*
@@ -38,7 +38,7 @@
                         background-image: url(/assets/images/case/raid.svg);
                     }
                     .item_child{
-                        backdrop-filter: blur(1.5px);
+                        backdrop-filter: blur(1px);
                         height: 100%;
                         width: 100%;
                         display: flex;

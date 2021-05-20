@@ -15,6 +15,30 @@
         // background-image: url(/assets/images/background-site1.png);
         background-position: 27% 770px;
     }
+    
    
 }
 
+
+@media only screen and (max-width:1600px){
+    .advantages{
+        .advantages-container{
+            .item{
+                padding: 20px;
+                .item-rk-container{
+                    margin-right: 15px; 
+                }
+                .item-container{
+                    .title{
+                        font-size: 20px;
+                    }
+                    p{
+                        margin-top: 10px;
+                        font-size: 16px;
+                        line-height: 22px;
+                    }
+                }
+            }
+        }
+    }
+}
