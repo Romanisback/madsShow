@@ -1,3 +1,6 @@
+
+// header and main
+
 $(".logo_wrap").animate({
     border: 0,
     /* 
@@ -25,6 +28,8 @@ $(".btn_style_header").animate({
  $('.btn_style_header').removeAttr('style'); 
 });
 
+//agency
+
 $(".h1-agency").animate({
   border: 0,
 }, 3000, function() {
@@ -48,4 +53,42 @@ $(".agency__second-item").animate({
 });
 
 
+//blogers
 
+$(".h2-blogers").animate({
+  border: 0,
+}, 4000, function() {
+ $('.h2-blogers').removeClass('animate__animated animate__fadeInUp');
+ $('.h2-blogers').removeAttr('style'); 
+});
+
+$(".p-blogers").animate({
+  border: 0,
+}, 4000, function() {
+ $('.p-blogers').removeClass('animate__animated animate__fadeInUp');
+ $('.p-blogers').removeAttr('style'); 
+});
+
+
+//cases
+
+$(".--lineage").animate({
+  border: 0,
+}, 4000, function() {
+ $('.--lineage').removeClass('animate__animated animate__fadeIn');
+ $('.--lineage').removeAttr('style'); 
+});
+
+$(".--skillbox").animate({
+  border: 0,
+}, 4000, function() {
+ $('.--skillbox').removeClass('animate__animated animate__fadeIn');
+ $('.--skillbox').removeAttr('style'); 
+});
+
+$(".--plarium").animate({
+  border: 0,
+}, 4000, function() {
+ $('.--plarium').removeClass('animate__animated animate__fadeIn');
+ $('.--plarium').removeAttr('style'); 
+});

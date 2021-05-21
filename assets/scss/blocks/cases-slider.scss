@@ -19,23 +19,29 @@
                     Модификатор используется для смены background'a
                     в кейсах
                     */
-                    &.--zaka{
-                        background-image: url(/assets/images/case/Zaka-zaka.svg);
-                    }
-                    &.--tld{
-                        background-image: url(/assets/images/case/total-down.svg);
-                    }
-                    &.--wot{
-                        background-image: url(/assets/images/case/Wot.svg);
-                    }
                     &.--lineage{
                         background-image: url(/assets/images/case/lineage.png);
+                        animation-delay: $ani-1_4-cases-1;
                     }
                     &.--skillbox{
                         background: url(/assets/images/case/skillbox.svg);
+                        animation-delay: $ani-1_5-cases-2;
                     }
                     &.--plarium{
                         background-image: url(/assets/images/case/raid.svg);
+                        animation-delay: $ani-1_6-cases-3;
+                    }
+                    &.--zaka{
+                        background-image: url(/assets/images/case/Zaka-zaka.svg);
+                        animation-delay: $ani-1_7-cases-4;
+                    }
+                    &.--tld{
+                        background-image: url(/assets/images/case/total-down.svg);
+                        animation-delay: $ani-1_8-cases-5;
+                    }
+                    &.--wot{
+                        background-image: url(/assets/images/case/Wot.svg);
+                        animation-delay: $ani-1_9-cases-6;
                     }
                     .item_child{
                         backdrop-filter: blur(1px);
