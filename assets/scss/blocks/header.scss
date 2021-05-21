@@ -22,8 +22,9 @@ header{
         .logo_wrap{
             position: relative;
             z-index: 1;
+            border:0;
             color: $primary;
-           
+            animation-delay: $ani-0_3-logo;
             text-decoration: none;
             img{
                 margin-bottom: 10px;
@@ -31,8 +32,9 @@ header{
                 border: 0;
             }
         }
-        nav{
+        .menu{
             display: block;
+            animation-delay: $ani-0_8-menu;
             ul{
                 font-family: $font-family-normal;
                 list-style: none;

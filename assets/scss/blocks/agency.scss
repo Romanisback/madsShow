@@ -14,11 +14,14 @@
                 font-size: 85px;
                 font-weight: 700;
                 margin-bottom: 16px;
+
+                animation-delay: $ani-0_8-agency-h1;
             }
             p{
                 font-size: 22px;
                 font-weight: 500;
                 color: $agency-p;
+                animation-delay: $ani-1_2-agency-p;
             }
         }
         .agency__second-item{
