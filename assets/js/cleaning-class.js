@@ -55,6 +55,13 @@ $(".agency__second-item").animate({
 
 //blogers
 
+$(".blogers").animate({
+  border: 0,
+}, 4000, function() {
+ $('.blogers').removeClass('animate__animated animate__fadeIn');
+ $('.blogers').removeAttr('style'); 
+});
+
 $(".h2-blogers").animate({
   border: 0,
 }, 4000, function() {
@@ -71,6 +78,14 @@ $(".p-blogers").animate({
 
 
 //cases
+
+
+$(".cases-slider").animate({
+  border: 0,
+}, 4000, function() {
+ $('.cases-slider').removeClass('animate__animated animate__fadeIn');
+ $('.cases-slider').removeAttr('style'); 
+});
 
 $(".--lineage").animate({
   border: 0,
@@ -91,4 +106,34 @@ $(".--plarium").animate({
 }, 4000, function() {
  $('.--plarium').removeClass('animate__animated animate__fadeIn');
  $('.--plarium').removeAttr('style'); 
+});
+
+$(".--zaka").animate({
+  border: 0,
+}, 4000, function() {
+ $('.--zaka').removeClass('animate__animated animate__fadeIn');
+ $('.--zaka').removeAttr('style'); 
+});
+
+$(".--tld").animate({
+  border: 0,
+}, 4000, function() {
+ $('.--tld').removeClass('animate__animated animate__fadeIn');
+ $('.--tld').removeAttr('style'); 
+});
+
+$(".--wot").animate({
+  border: 0,
+}, 4000, function() {
+ $('.--wot').removeClass('animate__animated animate__fadeIn');
+ $('.--wot').removeAttr('style'); 
+});
+
+
+// footer
+$(".footer-content").animate({
+  border: 0,
+}, 4000, function() {
+ $('.footer-content').removeClass('animate__animated animate__fadeIn');
+ $('.footer-content').removeAttr('style'); 
 });

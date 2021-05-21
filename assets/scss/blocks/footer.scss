@@ -11,6 +11,7 @@ footer{
             margin: 0 auto;
             max-width: 100%;
             justify-content: space-between;
+            animation-delay: $ani-footer;
             .footer-column{
                 .footer-title{
                     font-weight: 700;
