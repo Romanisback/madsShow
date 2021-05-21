@@ -28,7 +28,24 @@ $(".btn_style_header").animate({
 $(".h1-agency").animate({
   border: 0,
 }, 3000, function() {
- $('.btn_style_header').removeClass('animate__animated animate__fadeIn');
- $('.btn_style_header').removeAttr('style'); 
+ $('.h1-agency').removeClass('animate__animated animate__fadeIn');
+ $('.h1-agency').removeAttr('style'); 
 });
+
+
+$(".p-agency").animate({
+  border: 0,
+}, 3200, function() {
+ $('.p-agency').removeClass('animate__animated animate__fadeIn');
+ $('.p-agency').removeAttr('style'); 
+});
+
+$(".agency__second-item").animate({
+  border: 0,
+}, 4000, function() {
+ $('.agency__second-item').removeClass('animate__animated animate__fadeIn');
+ $('.agency__second-item').removeAttr('style'); 
+});
+
+
 
