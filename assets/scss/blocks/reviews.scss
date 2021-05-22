@@ -1,0 +1,15 @@
+.review{
+   font-family: $font-family-normal;
+    .review_container{
+        padding: 75px 0 150px;
+        background-image: url(/assets/images/Reviews.svg);
+        background-repeat: no-repeat;
+        background-position: 50% 21%;
+        .container{
+            h2{
+                margin-bottom: 50px;
+            }
+            @import 'blocks/review-slider.scss';
+        }
+    }
+}
