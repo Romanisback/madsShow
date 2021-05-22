@@ -4,6 +4,7 @@
     background-image: url(/assets/images/advantage.svg);
     background-repeat: no-repeat;
     background-position: 66% 0%;
+    animation-delay: $ani-adv;
     h2{
         margin-bottom: 120px;
     }
@@ -22,6 +23,24 @@
                 box-shadow: 0 0 17px -4px #babbbabf;
                 display: flex;
                 justify-content: center;
+                &.--item1{
+                    animation-delay: $ani-1_4-adv-1;
+                }
+                &.--item2{
+                    animation-delay: $ani-1_5-adv-2;
+                }
+                &.--item3{
+                    animation-delay: $ani-1_6-adv-3;
+                }
+                &.--item4{
+                    animation-delay: $ani-1_7-adv-4;
+                }
+                &.--item5{
+                    animation-delay: $ani-1_8-adv-5;
+                }
+                &.--item6{
+                    animation-delay: $ani-1_9-adv-6;
+                }
                 .item-rk-container{
                     margin-right: 35px;
                     display: flex;

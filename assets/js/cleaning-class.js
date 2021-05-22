@@ -137,3 +137,54 @@ $(".footer-content").animate({
  $('.footer-content').removeClass('animate__animated animate__fadeIn');
  $('.footer-content').removeAttr('style'); 
 });
+
+// Advantages
+
+$(".advantages").animate({
+  border: 0,
+}, 4000, function() {
+ $('.advantages').removeClass('animate__animated animate__fadeIn');
+ $('.advantages').removeAttr('style'); 
+});
+
+$(".--item1").animate({
+  border: 0,
+}, 4000, function() {
+ $('.--item1').removeClass('--item1 animate__animated animate__fadeIn').removeAttr('style');
+ /* 
+ Чтобы убрать аттрибут style нам 
+ нужно повесить событие ТОЛЬКО совместо с 
+ событием removeClass, тк модификатор --item
+ мы удалили
+ */
+});
+$(".--item2").animate({
+  border: 0,
+}, 4000, function() {
+ $('.--item2').removeClass('--item2 animate__animated animate__fadeIn').removeAttr('style');
+
+});
+$(".--item3").animate({
+  border: 0,
+}, 4000, function() {
+ $('.--item3').removeClass('--item3 animate__animated animate__fadeIn').removeAttr('style');
+ 
+});
+$(".--item4").animate({
+  border: 0,
+}, 4000, function() {
+ $('.--item4').removeClass('--item4 animate__animated animate__fadeIn').removeAttr('style');
+
+});
+$(".--item5").animate({
+  border: 0,
+}, 4000, function() {
+ $('.--item5').removeClass('--item5 animate__animated animate__fadeIn').removeAttr('style');
+
+});
+$(".--item6").animate({
+  border: 0,
+}, 4000, function() {
+ $('.--item6').removeClass('--item6 animate__animated animate__fadeIn').removeAttr('style');
+ 
+});
