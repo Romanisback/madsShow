@@ -138,6 +138,14 @@ $(".footer-content").animate({
  $('.footer-content').removeAttr('style'); 
 });
 
+// Review
+$(".review").animate({
+  border: 0,
+}, 4000, function() {
+ $('.review').removeClass('animate__animated animate__fadeInLeft');
+ $('.review').removeAttr('style'); 
+});
+
 // Advantages
 
 $(".advantages").animate({
@@ -162,29 +170,24 @@ $(".--item2").animate({
   border: 0,
 }, 4000, function() {
  $('.--item2').removeClass('--item2 animate__animated animate__fadeIn').removeAttr('style');
-
 });
 $(".--item3").animate({
   border: 0,
 }, 4000, function() {
  $('.--item3').removeClass('--item3 animate__animated animate__fadeIn').removeAttr('style');
- 
 });
 $(".--item4").animate({
   border: 0,
 }, 4000, function() {
  $('.--item4').removeClass('--item4 animate__animated animate__fadeIn').removeAttr('style');
-
 });
 $(".--item5").animate({
   border: 0,
 }, 4000, function() {
  $('.--item5').removeClass('--item5 animate__animated animate__fadeIn').removeAttr('style');
-
 });
 $(".--item6").animate({
   border: 0,
 }, 4000, function() {
  $('.--item6').removeClass('--item6 animate__animated animate__fadeIn').removeAttr('style');
- 
 });
