@@ -1,0 +1,25 @@
+.form{
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        form{
+            display: flex;
+            width: 1074px;
+            height: 455px;
+            padding: 65px 47px 37px 74px;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            
+            background: white;
+            box-shadow: 0 12px 46px $secondary;
+            border-radius: 34px;
+            @import "blocks/form-left-child.scss";
+        }
+    }
+  
+    
+}
+
+

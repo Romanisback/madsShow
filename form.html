@@ -1,0 +1,46 @@
+---
+layout: default
+title: Request
+---
+
+<div class="form" id="form">
+    <div class="container">
+        <h2>Отправить</h2>
+        <form action="" id="mailForm">
+            <div class="form__left-child">
+                <div class="title-form">
+                    Форма заявки
+                </div>
+                <p>Оставьте заявку</p>
+                <input type="text">
+                <input type="email">
+                <button type="submit" id="sendMail">Отправить заявку</button>
+                <p>Ответим в течение 1 часа</p>
+                <input type="hidden" name="Заявка mads.show">
+                <div class="errormessage">
+
+                </div>
+            </div>
+            <div class="form__right-child">
+                <textarea name="Комментарий к заявке" id="message" cols="30" rows="10" placeholder="Комментарий:">
+                    
+                </textarea>
+                <div class="indicators">
+                    <div class="indicator-input">
+                        <p>Бюджет*:</p>
+                        <input type="text" name="Бюджет" class="some-input" id="value">
+                    </div>
+                    <div class="indicator-input">
+                        <p>Просмотры*:</p>
+                        <input type="text" name="Просмотры" class="some-input" id="view">
+                    </div>
+                    <div class="indicator-input">
+                        <p>Клики*:</p>
+                        <input type="text" name="Клики" class="some-input" id="click">
+                    </div>
+                </div>
+                <input type="range" id="range" value="30000" min="10000" step="10000" max="">
+            </div>
+        </form>
+    </div>
+</div>
