@@ -1,0 +1,12 @@
+.sendler{
+    display: flex;
+    width: 1074px;
+    height: 455px;
+    padding: 65px 47px 37px 74px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    @import "blocks/form-left-child.scss";
+    @import "blocks/form-right-child.scss";
+}
+
