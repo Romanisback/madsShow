@@ -16,7 +16,7 @@
         font-weight: 600!important;
         font-family: $font-family-normal;
         text-align: left;
-        overflow: auto;
+        // overflow: auto;
         padding: 15px 20px;
         line-height: 30px;
 }
@@ -39,7 +39,8 @@
             outline: none;
             font-size: 14px;
             p{
-                padding: 10px 16px 11px 12px;
+                font-weight: 600;
+                padding: 10px 4px 11px 12px;
                 align-self: center;
                 width: auto;
                 flex-shrink: 0;
