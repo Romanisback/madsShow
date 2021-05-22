@@ -1,11 +1,11 @@
 main{
-    height: 100%; //changed
+    min-height: 770px; //changed
     background-repeat: no-repeat;
     background-image: url(/assets/images/background-site.svg);
     background-position: 42% 770px;
     display: flex;
     flex-wrap: wrap;
-    align-content: flex-start;
+    align-content: center;
     justify-content: center;
     
     
