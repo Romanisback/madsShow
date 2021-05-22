@@ -4,6 +4,7 @@
     align-self: center;
     width: 352px;
     height: 100%;
+    // margin-right: 46px;
     .title-form{
         font-size: 37px;
         font-family: $font-family-normal;
@@ -28,7 +29,7 @@
         width: 100%;
         margin-top: 7px;
         outline: none;
-        border: 2px solid #DEE5F9;
+        border: 2px solid $border-adv;
         border-radius: 8px;
         /* padding: 10px 5px; */
         line-height: 30px;
