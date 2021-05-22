@@ -134,7 +134,7 @@ $(".--wot").animate({
 $(".footer-content").animate({
   border: 0,
 }, 4000, function() {
- $('.footer-content').removeClass('animate__animated animate__fadeIn');
+ $('.footer-content').removeClass('animate__animated animate__fadeInUp');
  $('.footer-content').removeAttr('style'); 
 });
 
@@ -145,6 +145,15 @@ $(".review").animate({
  $('.review').removeClass('animate__animated animate__fadeInLeft');
  $('.review').removeAttr('style'); 
 });
+
+//Clients
+$(".clients").animate({
+  border: 0,
+}, 4000, function() {
+ $('.clients').removeClass('animate__animated animate__fadeInLeft');
+ $('.clients').removeAttr('style'); 
+});
+
 
 // Advantages
 
