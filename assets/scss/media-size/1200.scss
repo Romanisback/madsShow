@@ -1,0 +1,98 @@
+header{
+    .container{
+        .header_wrap{
+            .btn_style_header{
+                font-family: $font-family-normal;
+                font-weight: 600;
+                width: 190px;
+                // padding-top: 8px;
+                // padding-bottom: 8px;
+                // font-size: 14px;
+            }
+        }
+    }
+}
+main{
+    background: none;
+    .advantages{
+        background-image: none;
+        .container{
+            .advantages-container{
+                .item{
+                    width: calc(50% - 30px);
+                }
+            }
+        }
+    }
+    .agency{
+        
+        .container_content{
+            margin-top: 100px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            .agency__first-item{
+                padding-top: 0;
+                width: 100%;
+                h1{
+                    font-size: 80px;
+                }
+            }
+            .agency__second-item{
+                width: 80%;
+                img{
+                    // max-width: 160px;
+                }
+                img:nth-child(2){
+                    top: 40px;
+                    position: relative;
+                }
+            }
+        }
+    }
+    .cases{
+        padding: 88px 0;
+        .container{
+            h2{
+                margin-top: 20px;
+            }
+        }
+    }
+    .blogers{
+        background-size: 100%;
+    }
+    .advantages{
+        margin-top: 88px;
+    }
+    .clients{
+        background-size: 100%;
+        background-position-y: 5%;
+    }
+    .form{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        background-size: 100%;
+        .container{
+            form{
+              
+                height: 100%;
+                .sendler{
+                    height: 100%;
+                    width: 100%;
+                    .form__left-child{
+                        justify-content: center;
+                        width: 100%;
+                        p{
+                            width: 100%;
+                            text-align: center;
+                        }
+                    }
+                    .form__right-child{
+                        width: 100%;
+                        padding-left: 0;
+                    }
+                }
+            }
+        }
+    }
+}
