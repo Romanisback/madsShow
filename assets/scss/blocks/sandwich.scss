@@ -1,0 +1,47 @@
+.sandwich{
+    display: none;
+    position: relative;
+    width: 35px;
+    height: 20px;
+    transition: all 0.3s ease 0s;
+    span{
+        position: absolute;
+        width: 70%;
+        height: 2px;
+        background-color: $primary;
+        right: 0;
+        top: 9px;
+    }
+}
+.sandwich::before,
+.sandwich::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    background-color: $primary;
+    right: 0;
+    transition: all 0.3s ease 0s;
+}
+.sandwich::before{
+    top: 0;
+    width: 100%;
+}
+.sandwich::after{
+    bottom: 0;
+    width: 30%;
+}
+
+// Active 
+
+.sandwich.active::before{
+    transform: rotate(45deg);
+    top: 9px;
+}
+.sandwich.active::after{
+    transform: rotate(-45deg);
+    bottom: 9px;
+    width: 100%;
+}
+.sandwich.active span{
+    transform: scale(0);
+}

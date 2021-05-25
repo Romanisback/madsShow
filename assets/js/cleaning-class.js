@@ -20,6 +20,13 @@ $(".logo_wrap").animate({
    $('.menu').removeClass('animate__animated animate__fadeIn');
    $('.menu').removeAttr('style'); 
  });
+// Cleaning menu-adaptive
+//  $(".menu-adaptive").animate({
+//   border: 0,
+// }, 3000, function() {
+//  $('.menu-adaptive').removeClass('animate__animated animate__fadeIn');
+//  $('.menu-adaptive').removeAttr('style'); 
+// });
 
 $(".btn_style_header").animate({
   border: 0,

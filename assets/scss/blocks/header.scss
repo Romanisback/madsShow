@@ -32,6 +32,10 @@ header{
                 border: 0;
             }
         }
+        // Burger and menu-adaptive
+        @import "blocks/menu-adaptive.scss";
+        @import "blocks/sandwich.scss";
+        // N menu
         .menu{
             display: block;
             animation-delay: $ani-0_8-menu;

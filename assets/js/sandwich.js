@@ -16,3 +16,10 @@
 //     $("nav").addClass("menu");
 //   }
 // }   
+
+$(document).ready(function(){
+    $('.sandwich').click(function(){
+        $('.sandwich').toggleClass('active');
+        $('.menu-adaptive').toggleClass('active animate__animated animate__fadeInRight');
+    })
+})

@@ -1,0 +1,32 @@
+.menu-adaptive{
+    display: none;
+    background-color: #fff;
+    padding: 0 15px;
+    position: absolute;
+    top: 68px;
+    right: 0;
+    width: 100%;
+    height: auto;
+    z-index: 20;
+    overflow-y: auto;
+    text-align: center;
+    ul{
+        width: 100%;
+        li{
+            text-align: center;
+            border-top: 1px solid #edf2fa;
+            a{
+                display: inline-block;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 48px;
+                position: relative;
+                text-transform: uppercase;
+                &.--foo{
+                    color: $color-red;
+                }
+                
+            }
+        }
+    }
+}
