@@ -30,6 +30,7 @@ $(document).ready(function(){
         breakpoint: 768,
         settings: {
           rows: 2,
+          arrows: false,
           slidesPerRow: 1,
         }
       }

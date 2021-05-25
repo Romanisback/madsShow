@@ -48,80 +48,47 @@ jQuery('#item'); // <= just works
 
 $(document).ready(function(){
     $('.slider-blogers').slick({
-        // infinite: true,
-        // speed: 800,
-        // slidesToShow: 4,
-        // slidesToScroll: 1,
-        // responsive: [
-        // //   {
-        // //     breakpoint: 1600,
-        // //     settings: {
-        // //       slidesToShow: 5,
-        // //       slidesToScroll: 1,
-        // //       infinite: true,
-        // //     }
-        // //   },
-        //   {
-        //     breakpoint: 992,
-        //     settings: {
-        //       slidesToShow: 3,
-        //       slidesToScroll: 1
-        //     }
-        //   },
-        //   {
-        //     breakpoint: 767,
-        //     settings: {
-        //       slidesToShow: 2,
-        //       slidesToScroll: 1
-        //     }
-        //   },
-        //   {
-        //     breakpoint: 420,
-        //     settings: {
-        //       slidesToShow: 1,
-        //       slidesToScroll: 1
-        //     }
-        //   }
-        // ]
         slidesToShow: 5,
-    slidesToScroll: 1,
-    fade: false,
-    adaptiveHeight: true,
-    infinite: true,
-    pauseOnFocus: true,
-    draggable: true,
-    centerMode: false,
-    variableWidth: false,
-    autoplay: false,
-    autoplaySpeed: 5000,
-    arrows: true,
-    dots: false,
-    responsive: [
-    {
-      breakpoint: 1600,
-      settings: {
-        slidesToShow: 4,
-      }
-    },
-    {
-      breakpoint: 1200,
-      settings: {
-        slidesToShow: 3,
-      }
-    },
-    {
-      breakpoint: 992,
-      settings: {
-        slidesToShow: 2,
-      }
-    },
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 1,
-      }
-    }
-    ]
+        slidesToScroll: 1,
+        fade: false,
+        adaptiveHeight: true,
+        infinite: true,
+        pauseOnFocus: true,
+        draggable: true,
+        centerMode: false,
+        variableWidth: false,
+        autoplay: false,
+        autoplaySpeed: 5000,
+        arrows: true,
+        dots: false,
+        responsive: [
+        {
+          breakpoint: 1600,
+          settings: {
+            slidesToShow: 4,
+          }
+        },
+        {
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 3,
+          }
+        },
+        {
+          breakpoint: 992,
+          settings: {
+            slidesToShow: 2,
+          }
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: false,
+            dots: true,
+            slidesToShow: 1,
+          }
+        }
+        ]
   });
 })
 
