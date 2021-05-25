@@ -1,0 +1,75 @@
+main .form .container form .sendler .form__left-child button{
+    width: 120%;
+}
+main .cases .container .cases-slider .slick-track .slick-slide .item-container .item .item_child .case-info .company{
+    height: 40px;
+}
+main .cases .container .cases-slider .slick-track .slick-slide .item-container .item:hover  .item_child .case-info .company p{
+    font-size: 12px;
+}
+main .cases .container .cases-slider .slick-track .slick-slide .item-container .item:hover .case-info .company_rk-info{
+    font-size: 10px;
+}   
+
+main{
+    .agency{
+        .container{
+            .container_content{
+                .agency__first-item{
+                    h1{
+                        font-size: 47px;
+                    }
+                    p{
+                        font-size: 15px;
+                    }
+                }
+                .agency__second-item{
+                    height: 320px;
+                    background-position-x: 0;
+                    background-position-y: 40px;
+                  img{
+                      display: none;
+                  }
+                }
+            }
+        }
+    }
+    .blogers{
+        .container{
+            .blogers_section{
+                height: 100%;
+                h2{
+                    font-size: 35px;
+                }
+            }
+        }
+    }
+    .form{
+        .container{
+            form{
+                .sendler{
+                    width: 95%;
+                    justify-content: center;
+                    .form__left-child{
+                        width: 90%;
+                        
+                    }
+                    .form__right-child{
+                        width: 90%;
+                        .indicators{
+                            display: none;
+                            flex-direction: column;
+                            .indicator-input{
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .slider{
+                        display: none;
+                    }
+                }
+            }
+        }
+        
+    }
+}

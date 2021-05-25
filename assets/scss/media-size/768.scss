@@ -1,0 +1,77 @@
+.container{
+    max-width: 100vw;
+    
+}
+main{
+    .agency{
+        .container{
+            .container_content{
+                .agency__second-item{
+                  
+                }
+            }
+        }
+    }
+    .cases{
+    //    .container{
+    //        max-width: 770px;
+    //    }
+    }
+    .clients{
+        
+    }
+}
+footer{
+    .container{
+       .footer-content{
+           justify-content: space-around;
+           .footer-column{
+                width: 100%;
+                padding: 25px 0;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                order: 2;
+                .footer-title{
+                    width: 100%;
+                    text-align: center;
+                }
+                .social-links{
+                    display: flex;
+                    a{
+                        margin-right: 10px;
+                    }
+                    a:last-child{
+                        margin: 0;
+                    }
+                }
+           }
+           .footer-column.contacts{
+               order: 1;
+               padding: 25px 0;
+               width: 100%;
+               display: flex;
+               justify-content: center;
+               .contacts-container{
+                width: 75%;
+                   .item:last-child{
+                       order: 3;
+                   }
+                   .footer-title{
+                       text-align: center;
+                       order: 2;
+                       margin-bottom: 10px;
+                   }
+                   .item{
+                       width: 100%;
+                       justify-content: center;
+                       a{
+                           font-size: 20px;
+                       }
+                   }
+                  
+               }
+           }
+       }
+    }
+}

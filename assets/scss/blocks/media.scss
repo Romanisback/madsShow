@@ -1,3 +1,4 @@
+//4k
 @media (min-width: 1600px){
     .container{
         width: 1560px;    
@@ -41,39 +42,17 @@
 @media only screen and (max-width: 992px){
     @import "media-size/992.scss";
 }
-
+//Mobile (M and L, no Iphone 5)
 @media only screen and (max-width:768px) {
-    .container{
-        width: calc(100%);
-    }
-    main{
-        .cases{
-           .container{
-               max-width: 770px;
-           }
-        }
-    }
-    footer{
-        .container{
-           .footer-content{
-               .contacts{
-                   margin-top: 50px;
-                width: 100%;
-                   .contacts-container{
-                       .item:last-child{
-                           order: 3;
-                       }
-                       .footer-title{
-                           order: 2;
-                       }
-                       display: flex;
-                      justify-content: space-between;
-                   }
-               }
-           }
-        }
-    }
+    @import "media-size/768.scss";
 }
+
+// Iphone 5 and smaller
+@media screen and (max-width: 598px){
+    @import "media-size/598.scss";
+}
+
+
 
 /* Container Points*/
 @media (min-width: 768px){
@@ -82,33 +61,29 @@
     }
     
 }
-	
-
 @media (min-width: 992px){
     .container{
     width: 970px
     }
 }
-	
-
 @media (min-width: 1200px){
     .container{
     width: 1200px
     }
 }
-	
-
-
 @media (min-width: 1600px){
     .container{
     width: 1560px
     }
 }
-	
 /* END CONTAINER POINTS*/
+
+
+
 
 @media (width: 1600px){
     .menu{
         width: 56%;
     }
 }
+
