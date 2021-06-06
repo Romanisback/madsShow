@@ -23,7 +23,9 @@ footer{
                 .footer-btn-style{
                     padding: 10px 20px;
                     color: $primary;
+                    cursor: pointer;
                     z-index: 1;
+                    border: 1px solid $primary;
                     display: inline-block;
                     font-weight: 700;
                     line-height: 20px;
@@ -32,6 +34,12 @@ footer{
                     transition: all .7s;
                     text-transform: uppercase;
                     background-color: $footer-style-lines;
+                }
+                .footer-btn-style:hover{
+                    border: 1px solid $footer-style-lines;
+                    cursor: pointer;
+                    background-color: $primary;
+                    color: $footer-style-lines;
                 }
                 .social-links{
                     a{
@@ -46,6 +54,13 @@ footer{
                         display: inline-block;
                         border: 1px solid $footer-style-lines;
                     }
+                    a:hover{
+                        border: 1px solid $primary;
+                        color: $primary;
+                        cursor: pointer;
+                        
+                    }
+                    
                 }
             }
             .contacts{
@@ -70,5 +85,5 @@ footer{
             }
         }
     }
-    
+  
 }

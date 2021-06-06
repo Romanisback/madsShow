@@ -3,7 +3,7 @@
     width: 229px;
     padding-top: 18px;
     padding-bottom: 17px;
-    background: $gradient-btn;
+    
     background: -webkit-linear-gradient(
 286deg
 ,$gradient-btn 0,$color-red 59%);
@@ -25,4 +25,10 @@
     position: relative;
 
     animation-delay: $ani-1_2-request;
+}
+.btn_style_header:hover{
+    opacity: 0.8;
+    // background: $white;
+    // color: $primary;
+    // border: 2px solid black;
 }

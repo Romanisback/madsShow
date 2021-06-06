@@ -6,7 +6,7 @@ title: Request
 <div class="form" id="form">
     <div class="container">
         <h2>Отправить</h2>
-        <form action="" id="mailForm">
+        <form action="" autocomplete="off" id="mailForm">
             <div class="sendler">
                 <div class="form__left-child">
                     <div class="title-form">
@@ -15,9 +15,10 @@ title: Request
                     <p>Оставьте заявку</p>
                     <input type="text" name="Имя" id="name" placeholder="Ваше имя:">
                     <input type="email" name="Email" id="email" placeholder="Ваш email:">
-                    <button type="submit" id="sendMail">Отправить</button>
+                    <button type="submit" id="sendMail">
+                     Отправить</button>
                     <p class="--center">Ответим в течение 1 часа</p>
-                    <div class="errormessage">
+                    <div class="errormessage" id="#errormessage">
                         <input type="hidden" name="form_name" value="Заявка с Mads Show">
                     </div>
                 </div>
@@ -44,4 +45,5 @@ title: Request
             
         </form>
     </div>
+  
 </div>

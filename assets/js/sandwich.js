@@ -20,6 +20,7 @@
 $(document).ready(function(){
     $('.sandwich').click(function(){
         $('.sandwich').toggleClass('active');
+        console.log($('.sanwich'));
         $('.menu-adaptive').toggleClass('active animate__animated animate__fadeInRight');
     })
 })

@@ -7,15 +7,21 @@ $("#sendMail").on("click", function () {
     const click = $("#click").val().trim();
 
     if (email == "") {
-        $("#errormess").text("Введите email")
+        alertify.alert("Лучше введите email", function(){
+            alertify.message('OK')
+          })
         return false;
     }
     else if (name == "") {
-        $("#errormess").text("Введите имя")
+        alertify.alert("У вас нет имени? Везет :(", function(){
+            alertify.message('OK')
+          })
         return false;
     }
     else if (message.length < 5) {
-        $("#errormess").text("Введите ваш комментарий (не менее 5 символов)")
+        alertify.alert("Слишком маленький комментарий", function(){
+            alertify.message('OK')
+          })
         return false;
     }
 
@@ -31,7 +37,10 @@ $("#sendMail").on("click", function () {
         },
         success: function (data) {
             if (!data) {
-                alert("У нас ошибки, ваше сообщение не доставлено, обратитесь по номеру телефона в контактах");
+                
+                alertify.alert("У нас ошибки, ваше сообщение не доставлено, обратитесь по номеру телефона в контактах", function(){
+                    alertify.message('Вот тут, внизу')
+                  })
             } else {
                 $("#mailForm").trigger("reset");
             }
