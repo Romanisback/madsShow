@@ -6,22 +6,28 @@ $("#sendMail").on("click", function () {
     const view = $("#view").val().trim();
     const click = $("#click").val().trim();
 
-    if (email == "") {
-        alertify.alert("Лучше введите email", function(){
-            alertify.message('OK')
-          })
+    if (email == "" & name == "" & message.length == "") {
+        alertify.alert("Так не пойдет, введите свои данные", function(){
+            // alertify.message('OK')
+          }).setHeader('Сообщение').set({'label': 'Окей'})
+        return false;
+    }
+    else if (email ==""){
+        alertify.alert("", function(){
+            alertify.message(false);
+          }).setContent('<h1 class = "al-content-header">Спасибо!</h1><div class = "cheese">Ваша заявка успешно отправлена, наш специалист свяжется с вами в ближайшее время</div>').setHeader('<h1 class="alert-header">Сообщение</h1>').setting({'modal':true,'label': 'Окей'}).show()
         return false;
     }
     else if (name == "") {
         alertify.alert("У вас нет имени? Везет :(", function(){
-            alertify.message('OK')
-          })
+            // alertify.message('OK')
+          }).setHeader('Сообщение').set({'label': 'Окей'})
         return false;
     }
     else if (message.length < 5) {
         alertify.alert("Слишком маленький комментарий", function(){
-            alertify.message('OK')
-          })
+            // alertify.message('OK')
+          }).setHeader('Сообщение').set({'label': 'Окей'})
         return false;
     }
 

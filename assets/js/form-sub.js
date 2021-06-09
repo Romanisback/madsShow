@@ -16,31 +16,19 @@ $("form").submit(function() {
       }
     });
 
-    // if (email == "") {
-    //   alertify.alert("Вводите email", function(){
-    //     alertify.message('OK')
-    //   })
-    //     return false;
-    // }
-    // else if (name == "") {
-    //   alertify.alert("У вас нет имени? Везет :(", function(){
-    //     alertify.message('OK')
-    //   })
-    //     return false;
-    // }
-    // else if (message.length < 5) {
-    //   alertify.alert("Слишком маленький комментарий", function(){
-    //     alertify.message('OK')
-    //   })
-    //     return false;
-    // }
+   
 
     if (validforma == true) {
       let th = $(this);
-      $.ajax({
+      const ajax = $.ajax({
         type: "POST",
         url: "mail.php",
         data: th.serialize()
+      })
+      ajax.done(function(){
+        alertify.alert("", function(){
+          alertify.message(false);
+        }).setContent('<h1 class = "al-content-header">Спасибо!</h1><div class = "cheese">Ваша заявка успешно отправлена, наш специалист свяжется с вами в ближайшее время</div>').setHeader('<h1 class="alert-header">Сообщение</h1>').setting({'modal':true,'label': 'Окей'}).show()
       })
     }
     return false;
