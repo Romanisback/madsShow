@@ -12,10 +12,21 @@ $("#sendMail").on("click", function () {
           }).setHeader('Сообщение').set({'label': 'Окей'})
         return false;
     }
-    else if (email ==""){
-        alertify.alert("", function(){
-            alertify.message(false);
-          }).setContent('<h1 class = "al-content-header">Спасибо!</h1><div class = "cheese">Ваша заявка успешно отправлена, наш специалист свяжется с вами в ближайшее время</div>').setHeader('<h1 class="alert-header">Сообщение</h1>').setting({'modal':true,'label': 'Окей'}).show()
+    else if (email < 1 & message.length < 5){
+        alertify.alert(`Имя конечно у вас красивое, ${name}, но вы забыли про email и комментарий`, function(){
+            // alertify.message('OK')
+          }).setHeader('Сообщение').set({'label': 'Окей'})
+        return false;
+    }
+    else if(name < 1 & message.length > 5){
+        alertify.alert(`Вы добавили email и комментарий, но забыли представиться`, function(){
+            // alertify.message('OK')
+          }).setHeader('Сообщение').set({'label': 'Окей'})
+    }
+    else if (email == "") {
+        alertify.alert(`Имя конечно у вас красивое, ${name}, но вы забыли про email`, function(){
+            // alertify.message('OK')
+          }).setHeader('Сообщение').set({'label': 'Окей'})
         return false;
     }
     else if (name == "") {

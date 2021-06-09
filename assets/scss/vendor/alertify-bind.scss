@@ -5,8 +5,8 @@
 }
 .cheese{
     font-family: $font-family-normal;
-    margin-top: 10px;
-    font-size: 14px;
+    margin: 20px 0 0 0;
+    font-size: 20px;
     color: $white;
 }
 .alert-header{
@@ -47,6 +47,17 @@ button.ajs-close{
     color: $white;
     font-family: $font-family-normal;
 
+}
+.ajs-message{
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 25px;
+    }
+}
+.ajs-message{
+    width: 400px !important;
 }
 // .ajs-commands{
 //     button{

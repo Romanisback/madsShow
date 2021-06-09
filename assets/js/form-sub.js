@@ -27,8 +27,8 @@ $("form").submit(function() {
       })
       ajax.done(function(){
         alertify.alert("", function(){
-          alertify.message(false);
-        }).setContent('<h1 class = "al-content-header">Спасибо!</h1><div class = "cheese">Ваша заявка успешно отправлена, наш специалист свяжется с вами в ближайшее время</div>').setHeader('<h1 class="alert-header">Сообщение</h1>').setting({'modal':true,'label': 'Окей'}).show()
+       
+        }).setContent(`<h1 class = "al-content-header">Спасибо, ${name}!</h1><div class = "cheese">Наша будущая с вами кампания соберет: ~${view} просмотров и ~${click} активных кликов по ссылке. При бюджете ~${value} рублей</div><div class = "cheese">Специалист свяжется с вами в ближайшее время</div>`).setHeader('<h1 class="alert-header">Сообщение</h1>').setting({'modal':true,'label': 'Окей'}).show()
       })
     }
     return false;
