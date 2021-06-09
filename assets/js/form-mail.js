@@ -22,6 +22,7 @@ $("#sendMail").on("click", function () {
         alertify.alert(`Вы добавили email и комментарий, но забыли представиться`, function(){
             // alertify.message('OK')
           }).setHeader('Сообщение').set({'label': 'Окей'})
+          return false;
     }
     else if (email == "") {
         alertify.alert(`Имя конечно у вас красивое, ${name}, но вы забыли про email`, function(){

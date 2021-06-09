@@ -28,7 +28,7 @@ $("form").submit(function() {
       ajax.done(function(){
         alertify.alert("", function(){
        
-        }).setContent(`<h1 class = "al-content-header">Спасибо, ${name}!</h1><div class = "cheese">Наша будущая с вами кампания соберет: ~${view} просмотров и ~${click} активных кликов по ссылке. При бюджете ~${value} рублей</div><div class = "cheese">Специалист свяжется с вами в ближайшее время</div>`).setHeader('<h1 class="alert-header">Сообщение</h1>').setting({'modal':true,'label': 'Окей'}).show()
+        }).setContent(`<h1 class = "al-content-header">Спасибо, ${name}!</h1><div class = "cheese">Наша будущая с вами кампания соберет: ~${view} просмотров и ~${click} активных кликов по ссылке при бюджете ~${value} рублей</div><div class = "cheese">Специалист свяжется с вами в ближайшее время</div>`).setHeader('<h1 class="alert-header">Сообщение</h1>').setting({'modal':true,'label': 'Окей'}).show()
       })
     }
     return false;
