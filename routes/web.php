@@ -29,4 +29,7 @@ Route::group(['prefix' => 'admin', 'middleware' => ['admin']], function () {
     // Profile
     Route::match(['get', 'post'],'profile/edit', 'Admin\ProfileController@edit')->name('admin.profile.edit');
     Route::get('logout', 'Admin\ProfileController@logout')->name('admin.logout');
+
+    Route::get('users', 'Admin\UsersController@list')->name('admin.users.list');
+    Route::get('users/{id}/edit', 'Admin\UsersController@edit')->name('admin.users.edit');
 });

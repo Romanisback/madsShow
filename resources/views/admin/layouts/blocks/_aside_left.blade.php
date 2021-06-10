@@ -20,23 +20,11 @@
                         </a>
                     </li>
 
-                    <li class="nav-parent {{ Str::contains(request()->route()->getName(), 'admin.users') ? 'nav-active nav-expanded' : '' }}">
-                        <a>
+                    <li class="{{ request()->route()->getName() === 'admin.users' ? 'nav-active' : '' }}">
+                        <a href="{{ route('admin.users.list') }}">
                             <i class="fa fa-user" aria-hidden="true"></i>
                             <span>Users</span>
                         </a>
-                        <ul class="nav nav-children">
-                            <li class="{{ Str::contains(request()->route()->getName(), 'admin.users.list_worker') ? 'nav-active' : '' }}">
-                                <a href="">
-                                    Workers
-                                </a>
-                            </li>
-                            <li class="{{ Str::contains(request()->route()->getName(), 'admin.users.list_employer')  ? 'nav-active' : '' }}">
-                                <a href="">
-                                    Employers
-                                </a>
-                            </li>
-                        </ul>
                     </li>
                 </ul>
             </nav>
