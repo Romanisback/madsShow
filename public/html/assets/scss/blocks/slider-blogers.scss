@@ -1,0 +1,107 @@
+.slider-blogers{
+    margin: 0;
+    width: 100%;
+    padding: 0 60px;
+    // min-width: 0;
+    .slick-track{
+        display: flex;
+        a{
+            border-radius: 50%;
+            margin: 0 20px;
+            overflow: hidden;
+            position: relative;
+            img{
+                width: 100%;
+            }
+            .title{
+                color: #fff;
+                font-weight: 600;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                padding: 15px;
+                opacity: 0;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                -webkit-align-items: center;
+                -ms-flex-align: center;
+                align-items: center;
+                -webkit-box-pack: center;
+                -webkit-justify-content: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                text-align: center;
+                -webkit-border-radius: 50%;
+                border-radius: 50%;
+                -webkit-transition: all .3s;
+                -o-transition: all .3s;
+                transition: all .3s;
+                background-color: rgba(0,0,0,.75);
+            }
+        }
+        a:hover .title{
+            opacity: 1;
+        }
+    }
+    .slick-prev.slick-arrow{
+       left: 0;
+       width: 50px;
+       height: 50px;
+       background: url(/html/assets/images/nav-pack/arrow-left.svg) 0 0 / 100% no-repeat;
+    }
+    .slick-prev::before{
+        content: "";
+    }
+    .slick-next.slick-arrow{
+        right: 0;
+        width: 50px;
+        height: 50px;
+        background: url(/html/assets/images/nav-pack/arrow-right.svg) 0 0 / 100% no-repeat;
+    }
+    .slick-next::before{
+        content: "";
+    }
+
+}
+
+
+// /* Слайдер */
+// .slick-slider{}
+// /* Слайдер запущен */
+// .slick-slider.slick-initialized{}
+// /* Слайдер с точками */
+// .slick-slider.slick-dotted{}
+// /* Ограничивающая оболочка */
+// .slick-list {}
+// /* Лента слайдов */
+// .slick-track{}
+// /* Слайд */
+// .slick-slide{}
+// /* Слайд активный (показывается) */
+// .slick-slide.slick-active{}
+// /* Слайд основной */
+// .slick-slide.slick-current{}
+// /* Слайд по центру */
+// .slick-slide.slick-center{}
+// /* Клонированный слайд */
+// .slick-slide.slick-cloned{}
+// /* Стрелка */
+// .slick-arrow{}
+// /* Стрелка влево */
+// .slick-arrow.slick-prev{}
+// /* Стрелка вправо */
+// .slick-arrow.slick-next{}
+// /* Стрелка не активная */
+// .slick-arrow.slick-disabled{}
+// /* Точки (булиты) */
+// .slick-dots{}
+// .slick-dots li{}
+// /* Активная точка */
+// .slick-dots li.slick-active{}
+// /* Элемент точки */
+// .slick-dots li button{}

@@ -1,0 +1,66 @@
+.al-content-header{
+    font-family: $font-family-normal;
+    font-size: 18px;
+    color: $white;
+}
+.cheese{
+    font-family: $font-family-normal;
+    margin: 20px 0 0 0;
+    font-size: 20px;
+    color: $white;
+}
+.alert-header{
+    font-family: $font-family-normal;
+    font-size: 15px;
+    color: $white;
+}
+.ajs-button{
+    font-family: $font-family-normal !important;
+    font-size: 15px !important;
+    color: $white !important;
+    border: 1px solid $white !important;
+    text-transform: none !important;
+}
+.ajs-button:hover{
+    background-color: $white !important;
+    color: $primary !important;
+}
+.ajs-dialog{
+    background-color: $primary !important;
+}
+button.ajs-close{
+    background-image: url(/html/assets/images/close-button.svg )!important;
+    background-size: 15px;
+    background-color: $primary !important;
+}
+.ajs-footer{
+    background-color: $primary !important;
+    border-top: none !important;
+}
+.ajs-header{
+    font-family: $font-family-normal;
+    background-color: $primary !important;
+    border-bottom: none !important;
+    color: $white !important;
+}
+.ajs-content{
+    color: $white;
+    font-family: $font-family-normal;
+
+}
+.ajs-message{
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 25px;
+    }
+}
+.ajs-message{
+    width: 400px !important;
+}
+// .ajs-commands{
+//     button{
+//         color: $white !important;
+//     }
+// }
