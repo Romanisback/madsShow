@@ -40,6 +40,13 @@
                             <span>Clients</span>
                         </a>
                     </li>
+
+                    <li class="{{ Str::contains(request()->route()->getName(), 'admin.bloggers') ? 'nav-active' : '' }}">
+                        <a href="{{ route('admin.bloggers.list') }}">
+                            <i class="fa fa-male" aria-hidden="true"></i>
+                            <span>Bloggers</span>
+                        </a>
+                    </li>
                 </ul>
             </nav>
 
