@@ -22,15 +22,22 @@
 
                     <li class="{{ Str::contains(request()->route()->getName(), 'admin.users') ? 'nav-active' : '' }}">
                         <a href="{{ route('admin.users.list') }}">
-                            <i class="fa fa-user" aria-hidden="true"></i>
+                            <i class="fa fa-users" aria-hidden="true"></i>
                             <span>Users</span>
                         </a>
                     </li>
 
                     <li class="{{ Str::contains(request()->route()->getName(), 'admin.cases') ? 'nav-active' : '' }}">
                         <a href="{{ route('admin.cases.list') }}">
-                            <i class="fa fa-user" aria-hidden="true"></i>
+                            <i class="fa fa-cubes" aria-hidden="true"></i>
                             <span>Cases</span>
+                        </a>
+                    </li>
+
+                    <li class="{{ Str::contains(request()->route()->getName(), 'admin.clients') ? 'nav-active' : '' }}">
+                        <a href="{{ route('admin.clients.list') }}">
+                            <i class="fa fa-user-secret" aria-hidden="true"></i>
+                            <span>Clients</span>
                         </a>
                     </li>
                 </ul>
