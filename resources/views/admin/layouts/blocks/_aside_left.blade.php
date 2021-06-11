@@ -47,6 +47,13 @@
                             <span>Bloggers</span>
                         </a>
                     </li>
+
+                    <li class="{{ Str::contains(request()->route()->getName(), 'admin.reviews') ? 'nav-active' : '' }}">
+                        <a href="{{ route('admin.reviews.list') }}">
+                            <i class="fa fa-comments" aria-hidden="true"></i>
+                            <span>Reviews</span>
+                        </a>
+                    </li>
                 </ul>
             </nav>
 

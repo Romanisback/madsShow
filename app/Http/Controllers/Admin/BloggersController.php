@@ -26,7 +26,7 @@ class BloggersController extends Controller
             $params = $request->all();
 
             if ($request->hasFile('image')) {
-                $image = $request->file('image')->store('clients', 'public');
+                $image = $request->file('image')->store('bloggers', 'public');
                 $params['image'] = $image;
             }
 
@@ -55,7 +55,7 @@ class BloggersController extends Controller
             $params = $request->all();
 
             if ($request->hasFile('image')) {
-                $image = $request->file('image')->store('clients', 'public');
+                $image = $request->file('image')->store('bloggers', 'public');
                 $params['image'] = $image;
             }
 
