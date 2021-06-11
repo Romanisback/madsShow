@@ -1,1 +1,5 @@
 /* Add here all your CSS customizations */
+.fileupload .uneditable-input .fa {
+    position: absolute;
+    top: 38px!important;
+}

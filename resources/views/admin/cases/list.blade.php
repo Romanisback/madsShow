@@ -1,10 +1,10 @@
 @extends('admin.layouts.app')
-@section('title', 'List workers')
+@section('title', 'Cases')
 
 @section('content')
     <header class="page-header">
-        <h2>Users</h2>
-        <a href="{{ route('admin.users.create') }}" class="mb-xs mt-xs mr-xs btn btn-primary pull-right">
+        <h2>Cases</h2>
+        <a href="{{ route('admin.cases.create') }}" class="mb-xs mt-xs mr-xs btn btn-primary pull-right">
             <i class="fa fa-plus-circle" aria-hidden="true"></i> Создать
         </a>
     </header>
@@ -25,21 +25,23 @@
                             <thead>
                             <tr>
                                 <th width="50px">#</th>
-                                <th>Name</th>
-                                <th>Email</th>
-                                <th>Роль</th>
+                                <th>Изображение</th>
+                                <th>Название</th>
+                                <th>Описание</th>
+                                <th>Просмотры</th>
                                 <th width="50px"></th>
                             </tr>
                             </thead>
                             <tbody>
-                            @foreach($users as $user)
+                            @foreach($cases as $case)
                                 <tr>
-                                    <td>{{ $user->id }}</td>
-                                    <td class="text-weight-bold">{{ $user->name }}</td>
-                                    <td>{{ $user->email }}</td>
-                                    <td>{{ $user->role->name }}</td>
+                                    <td>{{ $case->id }}</td>
+                                    <td><img src="{{ url('storage/' . $case->image) }}" width="100" alt=""></td>
+                                    <td class="text-weight-bold">{{ $case->title }}</td>
+                                    <td>{{ $case->description }}</td>
+                                    <td>{{ $case->gained_result }}</td>
                                     <td class="actions text-center">
-                                        <a href="{{ route('admin.users.edit', ['id' => $user->id]) }}"><i class="fa fa-pencil"></i></a>
+                                        <a href="{{ route('admin.cases.edit', ['id' => $case->id]) }}"><i class="fa fa-pencil"></i></a>
                                     </td>
                                 </tr>
                             @endforeach
@@ -47,7 +49,7 @@
                         </table>
 
                         <!-- pagination -->
-                        {{ $users->appends( request()->query() )->links() }}
+                        {{ $cases->appends( request()->query() )->links() }}
                     </div>
                 </div>
             </section>

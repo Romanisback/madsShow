@@ -20,10 +20,17 @@
                         </a>
                     </li>
 
-                    <li class="{{ request()->route()->getName() === 'admin.users' ? 'nav-active' : '' }}">
+                    <li class="{{ Str::contains(request()->route()->getName(), 'admin.users') ? 'nav-active' : '' }}">
                         <a href="{{ route('admin.users.list') }}">
                             <i class="fa fa-user" aria-hidden="true"></i>
                             <span>Users</span>
+                        </a>
+                    </li>
+
+                    <li class="{{ Str::contains(request()->route()->getName(), 'admin.cases') ? 'nav-active' : '' }}">
+                        <a href="{{ route('admin.cases.list') }}">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                            <span>Cases</span>
                         </a>
                     </li>
                 </ul>

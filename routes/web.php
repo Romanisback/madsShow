@@ -31,5 +31,13 @@ Route::group(['prefix' => 'admin', 'middleware' => ['admin']], function () {
     Route::get('logout', 'Admin\ProfileController@logout')->name('admin.logout');
 
     Route::get('users', 'Admin\UsersController@list')->name('admin.users.list');
-    Route::get('users/{id}/edit', 'Admin\UsersController@edit')->name('admin.users.edit');
+    Route::match(['post', 'get'],'users/create', 'Admin\UsersController@create')->name('admin.users.create');
+    Route::match(['post', 'get'],'users/{id}/edit', 'Admin\UsersController@edit')->name('admin.users.edit');
+    Route::get('users/{id}/delete', 'Admin\UsersController@delete')->name('admin.users.delete');
+
+    // Cases
+    Route::get('cases', 'Admin\CasesController@list')->name('admin.cases.list');
+    Route::match(['post', 'get'],'cases/create', 'Admin\CasesController@create')->name('admin.cases.create');
+    Route::match(['post', 'get'],'cases/{id}/edit', 'Admin\CasesController@edit')->name('admin.cases.edit');
+    Route::get('cases/{id}/delete', 'Admin\CasesController@delete')->name('admin.cases.delete');
 });

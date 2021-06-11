@@ -20,7 +20,10 @@
 
     <link rel="stylesheet" href="{{asset('adm/vendor/font-awesome/css/font-awesome.css')}}" />
 
+    <link rel="stylesheet" href="{{ asset('adm/vendor/bootstrap-fileupload/bootstrap-fileupload.min.css') }}" />
+
     <link rel="stylesheet" href="{{asset('adm/css/theme.css')}}" />
+    <link rel="stylesheet" href="{{asset('adm/css/theme-custom.css')}}" />
     <link rel="stylesheet" href="{{asset('adm/css/skins/default.css')}}" />
 
     <script src="{{asset('adm/vendor/modernizr/modernizr.js')}}"></script>
@@ -49,6 +52,7 @@
     <script src="{{asset('adm/vendor/bootstrap/js/bootstrap.js')}}"></script>
     <script src="{{asset('adm/vendor/nanoscroller/nanoscroller.js')}}"></script>
     <script src="{{asset('adm/vendor/jquery-placeholder/jquery.placeholder.js')}}"></script>
+    <script src="{{asset('adm/vendor/bootstrap-fileupload/bootstrap-fileupload.min.js')}}"></script>
 
     <script src="{{asset('adm/js/theme.js')}}"></script>
 
