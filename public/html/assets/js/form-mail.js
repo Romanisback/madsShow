@@ -5,6 +5,7 @@ $("#sendMail").on("click", function () {
     const value = $("#value").val().trim();
     const view = $("#view").val().trim();
     const click = $("#click").val().trim();
+    const range = $(".slider");
 
     if (email == "" & name == "" & message.length == "") {
         alertify.alert("Так не пойдет, введите свои данные", function(){
@@ -52,34 +53,12 @@ $("#sendMail").on("click", function () {
           }).setHeader('Сообщение').set({'label': 'Окей'})
         return false;
     }
-
-    $.ajax({
-        url: 'assets/php/mail.php',
-        type: 'POST',
-        cache: false,
-        data: { 
-            'name': name, 
-            'email': email, 
-            'message': message, 
-            'value': value, 
-            'view': view, 
-            'click': click },
-        dataType: 'html',
-        beforeSend: function () {
-            $("#sendMail").prop("disabled", true);
-        },
-        success: function (data) {
-            if (!data) {
-                alertify
-                .alert("У нас ошибки, ваше сообщение не доставлено, обратитесь по номеру телефона в контактах",
-                 function(){
-                    alertify.message('Вот тут, внизу')
-                  })
-            } else {
-                $("#mailForm").trigger("reset");
-            }
-            $("#sendMail").prop("disabled", false);
-        }
-    });
+    if (value == '' & view == '' & click == ''){
+        value.trigger("reset");
+        view.trigger("reset");
+        click.trigger("reset");
+        range.trigger("reset");
+    }
+   
 });
 

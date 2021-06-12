@@ -13,7 +13,7 @@
             <form class="" action="{{ route('admin.users.edit', ['id' => $user->id]) }}" enctype="multipart/form-data" method="post">
                 @csrf
                 <div class="row">
-                    <div class="col-md-8">
+                    <div class="col-md-12">
                         <section class="panel panel-dark">
                             <div class="panel-body">
                                 <div class="row">
@@ -46,25 +46,25 @@
                         </section>
                     </div>
 
-                    <div class="col-md-4">
-                        <section class="panel panel-dark">
-                            <div class="panel-body">
-                                <div class="row">
+{{--                    <div class="col-md-4">--}}
+{{--                        <section class="panel panel-dark">--}}
+{{--                            <div class="panel-body">--}}
+{{--                                <div class="row">--}}
 
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <label for="role_id" class="control-label">Role</label>
-                                            <select class="form-control mb-md" id="role_id" name="role_id">
-                                                @foreach(\App\Models\Role::$getRoles as $key => $role)
-                                                    <option value="{{ $key }}" {{ $user->role_id == $key ? 'selected' : null }}>{{ $role }}</option>
-                                                @endforeach
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
+{{--                                    <div class="col-md-12">--}}
+{{--                                        <div class="form-group">--}}
+{{--                                            <label for="role_id" class="control-label">Role</label>--}}
+{{--                                            <select class="form-control mb-md" id="role_id" name="role_id">--}}
+{{--                                                @foreach(\App\Models\Role::$getRoles as $key => $role)--}}
+{{--                                                    <option value="{{ $key }}" {{ $user->role_id == $key ? 'selected' : null }}>{{ $role }}</option>--}}
+{{--                                                @endforeach--}}
+{{--                                            </select>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </section>--}}
+{{--                    </div>--}}
                 </div>
 
                 <footer class="panel-footer">

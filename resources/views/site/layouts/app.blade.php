@@ -14,7 +14,8 @@
     <link rel="shortcut icon" href="{{ asset('dist/assets/images/favicon.ico') }}" type="image/x-icon">
     <link rel="shortcut icon" href="{{ asset('dist/assets/images/favicon/apple-touch-icon.png') }}">
     <link rel="shortcut icon" href="{{ asset('dist/assets/images/favicon/apple-touch-icon-72x72.png') }}" sizes="72x72">
-    <link rel="shortcut icon" href="{{ asset('dist/assets/images/favicon/apple-touch-icon-114x114.png') }}" sizes="114x114">
+    <link rel="shortcut icon" href="{{ asset('dist/assets/images/favicon/apple-touch-icon-114x114.png') }}"
+          sizes="114x114">
 
     <!-- Libs CDN css -->
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
@@ -32,18 +33,25 @@
     <meta name="description" content="">
 
     <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
-        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-            m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () {
+                (m[i].a = m[i].a || []).push(arguments)
+            };
+            m[i].l = 1 * new Date();
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
         ym(65949394, "init", {
-            clickmap:true,
-            trackLinks:true,
-            accurateTrackBounce:true
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true
         });
     </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/65949394" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/65949394" style="position:absolute; left:-9999px;" alt=""/></div>
+    </noscript>
     <!-- /Yandex.Metrika counter -->
 </head>
 <body>
@@ -69,5 +77,8 @@
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <!-- Aleritfy -->
 <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+
+@stack('scripts')
+
 </body>
 </html>

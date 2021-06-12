@@ -47,7 +47,7 @@ class UsersController extends Controller
 
             $this->validate($request, [
                 'name' => ['required', 'string', 'max:255'],
-                'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
+                'email' => ['required', 'string', 'email', 'max:255'],
                 'password' => ['required', 'string', 'min:8'],
             ]);
 
@@ -58,7 +58,7 @@ class UsersController extends Controller
             }
 
             $user->fill($params);
-            $user>save();
+            $user->save();
 
             return redirect()->route('admin.users.list')->with(['success' => 'Пользователь обновлен!']);
         }

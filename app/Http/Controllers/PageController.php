@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Blogger;
 use App\Models\Client;
+use App\Models\Order;
 use App\Models\Review;
 use App\Models\SiteCase;
 use Illuminate\Http\Request;
@@ -52,7 +53,23 @@ class PageController extends Controller
     public function formRequest(Request $request)
     {
         if ($request->isMethod('post')) {
-            //
+            $this->validate($request, [
+                'name' => 'required|min:3',
+                'email' => 'required|string|email',
+                'message' => 'required|min:5',
+                'value' => 'required',
+                'view' => 'required',
+                'click' => 'required',
+            ]);
+
+            $order = new Order();
+            $order->fill($request->all());
+
+            if ($order->save()) {
+                return response()->json(['status' => 200]);
+            }
+
+            return response()->json(['status' => 500]);
         }
 
         return view('site.form-request');

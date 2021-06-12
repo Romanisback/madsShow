@@ -22,6 +22,10 @@ class Order extends Model
         'name', 'email', 'message', 'value', 'view', 'click', 'status'
     ];
 
+    protected $attributes = [
+        'status' => self::STATUS_NEW,
+    ];
+
     public static $getStatuses = [
         self::STATUS_NEW => ['Новая заявка', 'info'],
         self::STATUS_PENDDING => ['В обработке', 'warning'],
