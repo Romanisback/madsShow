@@ -1,0 +1,72 @@
+.cookie{
+   background: white;
+   width: 100%;
+   height: 100%;
+   margin: 100px 0 0 0;
+
+    p{
+        font-size: 16px;
+
+    }
+  
+    .container{
+        border-left: 1px dotted black;
+        border-right: 1px dotted black;;
+        max-width: 1000px;
+        .cookie_menu-title{
+            padding: 18px 0 10px;
+            border-bottom: 1px dotted black;
+            h1{
+                font-family: $font-family-normal;
+                font-size: 50px;
+            }
+        }
+        .cookie-info{
+            padding-top: 20px;
+            h2{
+                @include h2-cookie;
+            }
+            p{
+                margin: 0 0 10px;
+            }
+        }
+        .cookie-close{
+            padding-top: 20px;
+            ul{
+                padding-left: 15px;
+                color: #686868;
+                font-size: 14px;
+                margin: 0;
+                list-style: disc;
+            }
+            li{
+                margin-top: 10px;
+                font-size: 15px;
+                a{
+                    color: #28387e;
+                }
+            }
+            h2{
+                @include h2-cookie;
+            }
+            ol{
+                list-style: decimal;
+                padding-left: 15px;
+                font-size: 14px;
+                margin: 0;
+            }
+            
+        }
+        .last-cookie{
+            padding-top: 20px;
+            h2{
+                @include h2-cookie;
+            }
+            p{
+                margin: 0 0 20px;
+            }
+        }
+    }
+}
+
+
