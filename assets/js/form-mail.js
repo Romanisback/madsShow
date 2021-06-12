@@ -78,7 +78,6 @@ $("#sendMail").on("click", function () {
             } else {
                 $("#mailForm").trigger("reset");
             }
-            alert(data);
             $("#sendMail").prop("disabled", false);
         }
     });

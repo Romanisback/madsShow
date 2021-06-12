@@ -13,17 +13,17 @@ title: Request
                         Форма заявки
                     </div>
                     <p>Оставьте заявку</p>
-                    <input type="text" name="Имя" id="name" placeholder="Ваше имя:">
-                    <input type="email" name="Email" id="email" placeholder="Ваш email:">
+                    <input type="text" name="Имя" id="name" placeholder="Ваше имя:" required>
+                    <input type="email" name="Email" id="email" placeholder="Ваш email:" required>
                     <button type="submit" id="sendMail">
                      Отправить</button>
-                    <p class="--center">Ответим в течение 1 часа</p>
-                    <div class="errormessage" id="#errormessage">
-                        <input type="hidden" name="form_name" value="Заявка с Mads Show">
-                    </div>
+                    <p class="--center">Ответим в течение часа</p>
+                    <p class=" --defence">Нажимая на кнопку отправить, я даю согласие на обработку <a href="/agreement.pdf">персональных данных.</a></p>
+                    <div class="errormess" id="#errormess"></div>
+                    <input type="hidden" name="form_name" value="Заявка с Mads Show">
                 </div>
                 <div class="form__right-child">
-                    <textarea name="Комментарий с Mads Show" wrap="hard" placeholder="Комментарий:" id="message" cols="30" rows="10" required>    
+                    <textarea name="Сообщение" wrap="hard" placeholder="Комментарий:" id="message" cols="30" rows="10"  required>    
                     </textarea>
                     <div class="indicators">
                         <div class="indicator-input --budget">
