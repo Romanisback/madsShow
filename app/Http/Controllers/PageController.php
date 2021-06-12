@@ -49,6 +49,12 @@ class PageController extends Controller
         return view('site.clients', compact('clients'));
     }
 
+    // Reviews
+    public function cookies()
+    {
+        return view('site.cookies');
+    }
+
     // formRequest
     public function formRequest(Request $request)
     {

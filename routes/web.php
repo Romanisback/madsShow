@@ -22,12 +22,13 @@ Route::get('/cases', 'PageController@cases')->name('cases');
 Route::get('/advantages', 'PageController@advantages')->name('advantages');
 Route::get('/reviews', 'PageController@reviews')->name('reviews');
 Route::get('/clients', 'PageController@clients')->name('clients');
+Route::get('/cookies', 'PageController@cookies')->name('cookies');
 Route::match(['get', 'post'],'/form-request', 'PageController@formRequest')->name('form_request');
 
 // Admin Routes
-Route::match(['post', 'get'], 'admin', 'Admin\AuthController@login')->name('admin.login');
+Route::match(['post', 'get'], 'admin123', 'Admin\AuthController@login')->name('admin.login');
 
-Route::group(['prefix' => 'admin', 'middleware' => ['admin']], function () {
+Route::group(['prefix' => 'admin123', 'middleware' => ['admin']], function () {
 
     // Profile
     Route::match(['get', 'post'],'profile/edit', 'Admin\ProfileController@edit')->name('admin.profile.edit');
