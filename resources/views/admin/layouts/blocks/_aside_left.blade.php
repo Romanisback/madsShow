@@ -13,12 +13,6 @@
         <div class="nano-content">
             <nav id="menu" class="nav-main" role="navigation">
                 <ul class="nav nav-main">
-                    <li class="{{ request()->route()->getName() === 'admin.dashboard' ? 'nav-active' : '' }}">
-                        <a href="{{ route('admin.dashboard') }}">
-                            <i class="fa fa-home" aria-hidden="true"></i>
-                            <span>Dashboard</span>
-                        </a>
-                    </li>
 
                     <li class="{{ Str::contains(request()->route()->getName(), 'admin.orders') ? 'nav-active' : '' }}">
                         <a href="{{ route('admin.orders.list') }}">

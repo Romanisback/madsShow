@@ -29,9 +29,6 @@ Route::match(['post', 'get'], 'admin', 'Admin\AuthController@login')->name('admi
 
 Route::group(['prefix' => 'admin', 'middleware' => ['admin']], function () {
 
-    // Dashboard
-    Route::get('dashboard', 'Admin\DashboardController@index')->name('admin.dashboard');
-
     // Profile
     Route::match(['get', 'post'],'profile/edit', 'Admin\ProfileController@edit')->name('admin.profile.edit');
     Route::get('logout', 'Admin\ProfileController@logout')->name('admin.logout');

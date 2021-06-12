@@ -31,7 +31,7 @@
                                     <div class="col-sm-12">
                                         <div class="form-group">
                                             <label for="url" class="control-label">Ссылка</label>
-                                            <input type="text" id="url" name="url" value="{{ old('url') }}" class="form-control">
+                                            <input type="url" id="url" name="url" value="{{ old('url') }}" class="form-control">
                                         </div>
                                     </div>
                                 </div>
