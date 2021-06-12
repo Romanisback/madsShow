@@ -10,7 +10,7 @@ class BloggersController extends Controller
 {
     public function list(Request $request)
     {
-        $bloggers = Blogger::query()->paginate(50);
+        $bloggers = Blogger::query()->orderBy('id', 'DESC')->paginate(20);
 
         return view('admin.bloggers.list', compact('bloggers'));
     }
@@ -21,6 +21,7 @@ class BloggersController extends Controller
             $this->validate($request, [
                 'name' => 'required',
                 'url' => 'required',
+                'image' => 'mimes:svg,jpeg,jpg,png|max:10000',
             ]);
 
             $params = $request->all();
@@ -50,6 +51,7 @@ class BloggersController extends Controller
             $this->validate($request, [
                 'name' => 'required',
                 'url' => 'required',
+                'image' => 'mimes:svg,jpeg,jpg,png|max:10000',
             ]);
 
             $params = $request->all();

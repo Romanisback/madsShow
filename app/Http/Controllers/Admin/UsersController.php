@@ -11,7 +11,7 @@ class UsersController extends Controller
 {
     public function list(Request $request)
     {
-        $users = User::query()->paginate(50);
+        $users = User::query()->orderBy('id', 'DESC')->paginate(50);
 
         return view('admin.users.list', compact('users'));
     }

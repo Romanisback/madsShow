@@ -5,7 +5,7 @@
     <div class="form" id="form">
         <div class="container">
             <h2>Отправить</h2>
-            <form action="" autocomplete="off" id="mailForm">
+            <form action="{{ route('form_request') }}" autocomplete="off" id="mailForm">
                 <div class="sendler">
                     <div class="form__left-child">
                         <div class="title-form">

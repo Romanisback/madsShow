@@ -13,7 +13,7 @@ class PageController extends Controller
     // Homepage
     public function home()
     {
-        $bloggers = Blogger::all();
+        $bloggers = Blogger::orderBy('id', 'DESC')->get();
 
         return view('site.index', compact('bloggers'));
     }
@@ -21,7 +21,7 @@ class PageController extends Controller
     // Cases
     public function cases()
     {
-        $cases = SiteCase::all();
+        $cases = SiteCase::orderBy('id', 'DESC')->get();
 
         return view('site.cases', compact('cases'));
     }
@@ -35,7 +35,7 @@ class PageController extends Controller
     // Reviews
     public function reviews()
     {
-        $reviews = Review::all();
+        $reviews = Review::orderBy('id', 'DESC')->get();
 
         return view('site.reviews', compact('reviews'));
     }
@@ -43,7 +43,7 @@ class PageController extends Controller
     // Reviews
     public function clients()
     {
-        $clients = Client::all();
+        $clients = Client::orderBy('id', 'DESC')->get();
 
         return view('site.clients', compact('clients'));
     }

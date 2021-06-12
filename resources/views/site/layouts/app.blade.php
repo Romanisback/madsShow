@@ -7,14 +7,14 @@
 
     <title>{{ config('app.name') }} - @yield('title')</title>
 
-    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet" href="{{ asset('dist/assets/css/style.min.css') }}">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="/html/assets/images/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="/html/assets/images/favicon/apple-touch-icon.png">
-    <link rel="apple-touch-icon" href="/html/assets/images/favicon/apple-touch-icon-72x72.png" sizes="72x72">
-    <link rel="apple-touch-icon" href="/html/assets/images/favicon/apple-touch-icon-114x114.png" sizes="114x114">
+    <link rel="shortcut icon" href="{{ asset('dist/assets/images/favicon.ico') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('dist/assets/images/favicon/apple-touch-icon.png') }}">
+    <link rel="shortcut icon" href="{{ asset('dist/assets/images/favicon/apple-touch-icon-72x72.png') }}" sizes="72x72">
+    <link rel="shortcut icon" href="{{ asset('dist/assets/images/favicon/apple-touch-icon-114x114.png') }}" sizes="114x114">
 
     <!-- Libs CDN css -->
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
@@ -64,7 +64,7 @@
 
 <!-- Jquery -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script src="assets/js/app.js"></script>
+<script src="{{ asset('dist/assets/js/app.js') }}"></script>
 <!-- Slick-->
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <!-- Aleritfy -->

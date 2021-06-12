@@ -10,7 +10,7 @@ class ReviewsController extends Controller
 {
     public function list(Request $request)
     {
-        $reviews = Review::query()->paginate(50);
+        $reviews = Review::query()->orderBy('id', 'DESC')->paginate(20);
 
         return view('admin.reviews.list', compact('reviews'));
     }
@@ -21,6 +21,7 @@ class ReviewsController extends Controller
             $this->validate($request, [
                 'review' => 'required',
                 'url' => 'required',
+                'avatar' => 'mimes:svg,jpeg,jpg,png|max:2000',
             ]);
 
             $params = $request->all();
@@ -50,6 +51,7 @@ class ReviewsController extends Controller
             $this->validate($request, [
                 'review' => 'required',
                 'url' => 'required',
+                'avatar' => 'mimes:svg,jpeg,jpg,png|max:2000',
             ]);
 
             $params = $request->all();

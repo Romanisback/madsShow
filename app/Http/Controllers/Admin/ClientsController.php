@@ -10,7 +10,7 @@ class ClientsController extends Controller
 {
     public function list(Request $request)
     {
-        $clients = Client::query()->paginate(50);
+        $clients = Client::query()->orderBy('id', 'DESC')->paginate(20);
 
         return view('admin.clients.list', compact('clients'));
     }
@@ -21,6 +21,7 @@ class ClientsController extends Controller
             $this->validate($request, [
                 'name' => 'required',
                 'url' => 'required',
+                'image' => 'mimes:svg,jpeg,jpg,png|max:10000',
             ]);
 
             $params = $request->all();
@@ -50,6 +51,7 @@ class ClientsController extends Controller
             $this->validate($request, [
                 'name' => 'required',
                 'url' => 'required',
+                'image' => 'mimes:svg,jpeg,jpg,png|max:10000',
             ]);
 
             $params = $request->all();

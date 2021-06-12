@@ -15,7 +15,7 @@
 
                 </ul>
             </nav>
-            <a href="{{ route('form_request') }}l" class="request btn_style_header animate__animated animate__fadeIn">
+            <a href="{{ route('form_request') }}" class="request btn_style_header animate__animated animate__fadeIn">
                 <span>Оставить заявку</span>
                 <span><i></i></span>
             </a>

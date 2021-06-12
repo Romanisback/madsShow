@@ -16,7 +16,7 @@
                                 <img src="{{ asset('storage/' . $review->avatar) }}" data-src="" alt="{{ $review->id }}">
                             </div>
                             <div class="review_social_links">
-                                <a href="{{ $review->url }}" target="_blank"><img src="/assets/images/vk.svg" alt=""></a>
+                                <a href="{{ $review->url }}" target="_blank"><img src="{{ asset('dist/assets/images/vk.svg') }}" alt="vk"></a>
                             </div>
                         </li>
                     @endforeach

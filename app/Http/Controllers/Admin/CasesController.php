@@ -10,7 +10,7 @@ class CasesController extends Controller
 {
     public function list(Request $request)
     {
-        $cases = SiteCase::query()->paginate(50);
+        $cases = SiteCase::query()->orderBy('id', 'DESC')->paginate(20);
 
         return view('admin.cases.list', compact('cases'));
     }
@@ -22,6 +22,8 @@ class CasesController extends Controller
                 'title' => 'required',
                 'description' => 'required',
                 'gained_result' => 'required',
+                'image' => 'mimes:svg,jpeg,jpg,png|max:10000',
+                'logo' => 'mimes:svg,jpeg,jpg,png|max:10000',
             ]);
 
             $params = $request->all();
@@ -57,6 +59,8 @@ class CasesController extends Controller
                 'title' => 'required',
                 'description' => 'required',
                 'gained_result' => 'required',
+                'image' => 'mimes:svg,jpeg,jpg,png|max:10000',
+                'logo' => 'mimes:svg,jpeg,jpg,png|max:10000',
             ]);
 
             $params = $request->all();

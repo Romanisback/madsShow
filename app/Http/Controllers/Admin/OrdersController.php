@@ -10,7 +10,7 @@ class OrdersController extends Controller
 {
     public function list(Request $request)
     {
-        $orders = Order::query()->paginate(50);
+        $orders = Order::query()->orderBy('id', 'DESC')->paginate(30);
 
         return view('admin.orders.list', compact('orders'));
     }

@@ -28,7 +28,7 @@ const distPath = 'public/dist/';
 const path = {
     build: {
         html:   distPath,
-        php:    distPath + "assets/php/",
+        // php:    distPath + "assets/php/",
         // pdf:    distPath + "assets/",
         js:     distPath + "assets/js/",
         css:    distPath + "assets/css/",
@@ -38,7 +38,7 @@ const path = {
     src: {
 
         html:   srcPath + "*.html",
-        php:    srcPath + "assets/php/*.php",
+        // php:    srcPath + "assets/php/*.php",
         // pdf:    srcPath + "assets/*.pdf",
         js:     srcPath + "assets/js/*.js",
         css:    srcPath + "assets/scss/*.scss",
@@ -46,9 +46,9 @@ const path = {
         fonts:  srcPath + "assets/fonts/**/*.{eot,woff,woff2,ttf,svg}"
     },
     watch: {
-        php:    srcPath + "**/*.php",
-        html:   srcPath + "**/*.html",
-        // pdf:    srcPath + "assets/**/*.pdf",
+        // php:    srcPath + "**/*.php",
+        // html:   srcPath + "**/*.html",
+        pdf:    srcPath + "assets/**/*.pdf",
         js:     srcPath + "assets/js/**/*.js",
         css:    srcPath + "assets/scss/**/*.scss",
         images: srcPath + "assets/images/**/*.{jpg,png,svg,gif,ico,webp,webmanifest,xml,json}",
@@ -271,11 +271,11 @@ function watchFiles() {
     gulp.watch([path.watch.js], jsWatch);
     gulp.watch([path.watch.images], images);
     gulp.watch([path.watch.fonts], fonts);
-    gulp.watch([path.watch.php], php);
+    // gulp.watch([path.watch.php], php);
     // gulp.watch([path.watch.pdf], pdf);
 }
 
-const build = gulp.series(clean, gulp.parallel(html, css, js, images, fonts, php));
+const build = gulp.series(clean, gulp.parallel(html, css, js, images, fonts));
 const watch = gulp.parallel(build, watchFiles, serve);
 
 
