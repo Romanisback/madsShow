@@ -70,18 +70,24 @@ $("form").submit(function() {
         type: "POST",
         url: "assets/php/mail.php",
         data: th.serialize()
-      }).done(function(){
-        alertify.alert("", function(){
+      }).done(function(text) {
+        setTimeout(function() {
+          th.trigger("reset");
+          console.log(text);
+          alertify.alert("", function(){
        
-        })
-        .setHeader('<h1 class="alert-header">Сообщение</h1>')
-        .setContent(`<h1 class = "al-content-header">Спасибо, ${name}
-        !</h1><div class = "cheese">Наша будущая с вами кампания соберет: ~${view} 
-        просмотров и ~${click} активных кликов по ссылке при бюджете ~${value} рублей</div>
-        <div class = "cheese">Специалист свяжется с вами в ближайшее время</div>`)
-        .setting({'modal':true,'label': 'Окей'})
-        .show()
-      })
+          })
+          .setHeader('<h1 class="alert-header">Сообщение</h1>')
+          .setContent(`<h1 class = "al-content-header">Спасибо, ${name}
+          !</h1><div class = "cheese">Наша будущая с вами кампания соберет: ~${view} 
+          просмотров и ~${click} активных кликов по ссылке при бюджете ~${value} рублей</div>
+          <div class = "cheese">Специалист свяжется с вами в ближайшее время</div>`)
+          .setting({'modal':true,'label': 'Окей'})
+          .show()
+        }, 1000);
+      });
+
+     
     }
     return false;
   });
