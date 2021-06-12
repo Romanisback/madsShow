@@ -19,7 +19,7 @@
                 </figure>
                 <div class="profile-info" data-lock-name="John Doe" data-lock-email="johndoe@okler.com">
                     <span class="name">{{ Auth::user()->name }}</span>
-                    <span class="role">{{ \App\Models\Role::$getRoles[Auth::user()->role_id] }}</span>
+                    <span class="role">{{ Auth::user()->role->name }}</span>
                 </div>
 
                 <i class="fa custom-caret"></i>
@@ -29,10 +29,10 @@
                 <ul class="list-unstyled">
                     <li class="divider"></li>
                     <li>
-                        <a role="menuitem" tabindex="-1" href="{{ route('admin.profile.edit') }}"><i class="fa fa-user"></i> Profile</a>
+                        <a role="menuitem" tabindex="-1" href="{{ route('admin.profile.edit') }}"><i class="fa fa-user"></i> Профиль</a>
                     </li>
                     <li>
-                        <a role="menuitem" tabindex="-1" href="{{ route('admin.logout') }}"><i class="fa fa-power-off"></i> Logout</a>
+                        <a role="menuitem" tabindex="-1" href="{{ route('admin.logout') }}"><i class="fa fa-power-off"></i> Выход</a>
                     </li>
                 </ul>
             </div>

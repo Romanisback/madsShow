@@ -29,7 +29,7 @@
 <section class="body-sign">
     <div class="center-sign">
         <a href="/" class="logo pull-left">
-            <img src="{{ asset('adm/images/logoblue.png') }}" height="54" alt="Faw Admin">
+            <img src="{{ asset('adm/images/Slogo.svg') }}" height="54" alt="Faw Admin">
         </a>
         <div class="panel panel-sign">
             <div class="panel-title-sign mt-md text-right">

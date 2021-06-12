@@ -58,4 +58,9 @@ Route::group(['prefix' => 'admin', 'middleware' => ['admin']], function () {
     Route::match(['post', 'get'],'reviews/create', 'Admin\ReviewsController@create')->name('admin.reviews.create');
     Route::match(['post', 'get'],'reviews/{id}/edit', 'Admin\ReviewsController@edit')->name('admin.reviews.edit');
     Route::get('reviews/{id}/delete', 'Admin\ReviewsController@delete')->name('admin.reviews.delete');
+
+    // Orders
+    Route::get('orders', 'Admin\OrdersController@list')->name('admin.orders.list');
+    Route::match(['post', 'get'],'orders/{id}/edit', 'Admin\OrdersController@edit')->name('admin.orders.edit');
+    Route::get('orders/{id}/delete', 'Admin\OrdersController@delete')->name('admin.orders.delete');
 });
