@@ -13,10 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
 
+Route::get('/', 'PageController@home')->name('home');
+Route::get('/cases', 'PageController@cases')->name('cases');
+Route::get('/advantages', 'PageController@advantages')->name('advantages');
+Route::get('/reviews', 'PageController@reviews')->name('reviews');
+Route::get('/clients', 'PageController@clients')->name('clients');
+Route::get('/form-request', 'PageController@formRequest')->name('form_request');
 
 // Admin Routes
 Route::match(['post', 'get'], 'admin', 'Admin\AuthController@login')->name('admin.login');

@@ -1,9 +1,9 @@
 .clients{
     // padding: 75px 0 150px;
-
+        
     min-height: 400px;
     animation-delay: $ani-clients;
-    background-image: url(/html/assets/images/ourclients.svg);
+    background-image: url(/assets/images/ourclients.svg);
     background-repeat: no-repeat;
     background-position: 45% 21%;
     .container{
@@ -20,7 +20,7 @@
                 padding: 0;
             }
             .slick-track{
-
+                
                 position: relative;
                 top: 0;
                 left: 0;
