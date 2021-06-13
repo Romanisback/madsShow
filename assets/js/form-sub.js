@@ -69,7 +69,10 @@ $("form").submit(function() {
       $.ajax({
         type: "POST",
         url: "assets/php/mail.php",
-        data: th.serialize()
+        data: th.serialize(),
+        // beforeSend: function(){
+        //   console.log($.cookie('requestForm'), false ,{expires: 7 , path: '/form.html'});
+        // }
       }).done(function(text) {
         setTimeout(function() {
           th.trigger("reset");
