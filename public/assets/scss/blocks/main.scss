@@ -1,14 +1,14 @@
 main{
     min-height: 770px; //changed
     background-repeat: no-repeat;
-    background-image: url(/html/assets/images/background-site.svg);
+    background-image: url(/assets/images/background-site.svg);
     background-position: 42% 770px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-
-
+    
+    
     h2{
         color: $primary;
         font-size: 42px;
@@ -17,7 +17,7 @@ main{
         position: relative;
         text-align: center;
     }
-
+   
     /* Add agency */
     @import "blocks/agency.scss";
     /* Add bloggers */
@@ -27,6 +27,7 @@ main{
     @import "blocks/reviews.scss";
     @import "blocks/clients.scss";
     @import "blocks/form.scss";
+    @import "blocks/cookies.scss";
 }
 
 ::-webkit-scrollbar {
@@ -38,9 +39,9 @@ main{
 ::-webkit-scrollbar-thumb {
     background-color: $color-red;
     // border-radius: 9em;
-
+  
 }
 ::-webkit-scrollbar-thumb:hover{
     background-color: $primary;
-
+   
 }

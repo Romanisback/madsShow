@@ -60,6 +60,7 @@ document.addEventListener(
                 slider.value = this.value;
             }
         }
+
        
     }
 )

@@ -70,9 +70,21 @@
 
 </div>
 
+<section class="cookies" id="CookieInfo">
+    <div class="container cookies_info">
+        <div class="cookies_text">
+            На данном сайте используются <a href="/cookies.html" class="cookies_link">cookies-файлы</a>, способствующие лучшему использованию сайта. Спасибо, что вы здесь!
+        </div>
+        <button class="cookies_button">
+            Oк
+        </button>
+    </div>
+</section>
+
 <!-- Jquery -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script src="{{ asset('dist/assets/js/app.js') }}"></script>
+<script type="application/javascript" src="{{ asset('dist/assets/libs/jquery.cookie.js') }}"></script>
+<script type="application/javascript" src="{{ asset('dist/assets/js/app.js') }}"></script>
 <!-- Slick-->
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <!-- Aleritfy -->

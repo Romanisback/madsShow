@@ -906,7 +906,7 @@ header {
 }
 
 button.ajs-close {
-    background-image: url(/html/assets/images/close-button.svg) !important;
+    background-image: url(/assets/images/close-button.svg) !important;
     background-size: 15px;
     background-color: #141823 !important;
 }
@@ -944,7 +944,7 @@ button.ajs-close {
 main {
     min-height: 770px;
     background-repeat: no-repeat;
-    background-image: url(/html/assets/images/background-site.svg);
+    background-image: url(/assets/images/background-site.svg);
     background-position: 42% 770px;
     display: -ms-flexbox;
     display: flex;
@@ -1016,7 +1016,7 @@ main .agency .container_content .agency__second-item {
     background-repeat: no-repeat;
     background-position-x: -13px;
     background-position-y: 93px;
-    background-image: url(/html/assets/images/main/but.svg);
+    background-image: url(/assets/images/main/but.svg);
     -webkit-animation-delay: 2s;
     animation-delay: 2s;
 }
@@ -1035,7 +1035,7 @@ main .blogers {
     align-self: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background-image: url(/html/assets/images/bloggers/our_bloggers.svg);
+    background-image: url(/assets/images/bloggers/our_bloggers.svg);
     background-repeat: no-repeat;
     background-position: 49% 86%;
 }
@@ -1104,7 +1104,7 @@ main .blogers .blogers_section .slider-blogers .slick-prev.slick-arrow {
     left: 0;
     width: 50px;
     height: 50px;
-    background: url(/html/assets/images/nav-pack/arrow-left.svg) 0 0/100% no-repeat;
+    background: url(/assets/images/nav-pack/arrow-left.svg) 0 0/100% no-repeat;
 }
 
 main .blogers .blogers_section .slider-blogers .slick-prev::before {
@@ -1115,7 +1115,7 @@ main .blogers .blogers_section .slider-blogers .slick-next.slick-arrow {
     right: 0;
     width: 50px;
     height: 50px;
-    background: url(/html/assets/images/nav-pack/arrow-right.svg) 0 0/100% no-repeat;
+    background: url(/assets/images/nav-pack/arrow-right.svg) 0 0/100% no-repeat;
 }
 
 main .blogers .blogers_section .slider-blogers .slick-next::before {
@@ -1170,37 +1170,37 @@ main .cases .container .cases-slider .slick-track .slick-slide .item-container .
                     в кейсах
                     */ }
           main .cases .container .cases-slider .slick-track .slick-slide .item-container .item.--lineage {
-            background-image: url(/html/assets/images/case/lineage.png);
+            background-image: url(/assets/images/case/lineage.png);
             -webkit-animation-delay: 1.4s;
                     animation-delay: 1.4s; }
           main .cases .container .cases-slider .slick-track .slick-slide .item-container .item.--skillbox {
-            background: url(/html/assets/images/case/skillbox.svg);
+            background: url(/assets/images/case/skillbox.svg);
             -webkit-animation-delay: 1.5s;
                     animation-delay: 1.5s; }
           main .cases .container .cases-slider .slick-track .slick-slide .item-container .item.--plarium {
-            background-image: url(/html/assets/images/case/raid.svg);
+            background-image: url(/assets/images/case/raid.svg);
             -webkit-animation-delay: 1.6s;
                     animation-delay: 1.6s; }
           main .cases .container .cases-slider .slick-track .slick-slide .item-container .item.--zaka {
-            background-image: url(/html/assets/images/case/Zaka-zaka.svg);
+            background-image: url(/assets/images/case/Zaka-zaka.svg);
             -webkit-animation-delay: 1.7s;
                     animation-delay: 1.7s; }
           main .cases .container .cases-slider .slick-track .slick-slide .item-container .item.--tld {
-            background-image: url(/html/assets/images/case/total-down.svg);
+            background-image: url(/assets/images/case/total-down.svg);
             -webkit-animation-delay: 1.8s;
                     animation-delay: 1.8s; }
           main .cases .container .cases-slider .slick-track .slick-slide .item-container .item.--wot {
-            background-image: url(/html/assets/images/case/Wot.svg);
+            background-image: url(/assets/images/case/Wot.svg);
             -webkit-animation-delay: 1.9s;
                     animation-delay: 1.9s; }
           main .cases .container .cases-slider .slick-track .slick-slide .item-container .item.--csgofast {
-            background-image: url(/html/assets/images/case/fast.svg); }
+            background-image: url(/assets/images/case/fast.svg); }
           main .cases .container .cases-slider .slick-track .slick-slide .item-container .item.--english {
-            background-image: url(/html/assets/images/case/English.svg); }
+            background-image: url(/assets/images/case/English.svg); }
           main .cases .container .cases-slider .slick-track .slick-slide .item-container .item.--ftc {
-            background-image: url(/html/assets/images/case/ftc.svg); }
+            background-image: url(/assets/images/case/ftc.svg); }
           main .cases .container .cases-slider .slick-track .slick-slide .item-container .item.--crunchy {
-            background-image: url(/html/assets/images/case/crunchyroll.jpg); }
+            background-image: url(/assets/images/case/crunchyroll.jpg); }
           main .cases .container .cases-slider .slick-track .slick-slide .item-container .item .item_child {
             -webkit-backdrop-filter: blur(1px);
                     backdrop-filter: blur(1px);
@@ -1296,19 +1296,19 @@ main .cases .container .cases-slider .slick-track .slick-slide .item-container .
         left: -20px;
         width: 50px;
         height: 50px;
-        background: url(/html/assets/images/nav-pack/arrow-left.svg) 0 0/100% no-repeat; }
+        background: url(/assets/images/nav-pack/arrow-left.svg) 0 0/100% no-repeat; }
       main .cases .container .cases-slider .slick-prev::before {
         content: ""; }
       main .cases .container .cases-slider .slick-next.slick-arrow {
         right: -20px;
         width: 50px;
         height: 50px;
-        background: url(/html/assets/images/nav-pack/arrow-right.svg) 0 0/100% no-repeat; }
+        background: url(/assets/images/nav-pack/arrow-right.svg) 0 0/100% no-repeat; }
       main .cases .container .cases-slider .slick-next::before {
         content: ""; }
   main .advantages {
     margin: 88px 0;
-    background-image: url(/html/assets/images/advantage.svg);
+    background-image: url(/assets/images/advantage.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 66% 6%;
@@ -1393,7 +1393,7 @@ main .cases .container .cases-slider .slick-track .slick-slide .item-container .
     -webkit-animation-delay: 2.2s;
             animation-delay: 2.2s; }
     main .review .review_container {
-      background-image: url(/html/assets/images/Reviews.svg);
+      background-image: url(/assets/images/Reviews.svg);
       background-repeat: no-repeat;
       background-position: 50% 21%; }
       main .review .review_container .container h2 {
@@ -1442,27 +1442,27 @@ main .cases .container .cases-slider .slick-track .slick-slide .item-container .
           right: -13px;
           width: 96px;
           height: 64px;
-          background-image: url(/html/assets/images/Bubble.png);
+          background-image: url(/assets/images/Bubble.png);
           background-repeat: no-repeat; }
       main .review .review_container .container .slick-prev.slick-arrow {
         left: -20px;
         width: 50px;
         height: 50px;
-        background: url(/html/assets/images/nav-pack/arrow-left.svg) 0 0/100% no-repeat; }
+        background: url(/assets/images/nav-pack/arrow-left.svg) 0 0/100% no-repeat; }
       main .review .review_container .container .slick-prev::before {
         content: ""; }
       main .review .review_container .container .slick-next.slick-arrow {
         right: -20px;
         width: 50px;
         height: 50px;
-        background: url(/html/assets/images/nav-pack/arrow-right.svg) 0 0/100% no-repeat; }
+        background: url(/assets/images/nav-pack/arrow-right.svg) 0 0/100% no-repeat; }
       main .review .review_container .container .slick-next::before {
         content: ""; }
   main .clients {
     min-height: 400px;
     -webkit-animation-delay: 2.2s;
             animation-delay: 2.2s;
-    background-image: url(/html/assets/images/ourclients.svg);
+    background-image: url(/assets/images/ourclients.svg);
     background-repeat: no-repeat;
     background-position: 45% 21%; }
     main .clients .container h2 {
@@ -1472,14 +1472,14 @@ main .cases .container .cases-slider .slick-track .slick-slide .item-container .
       width: 50px;
       height: 50px;
       z-index: 1;
-      background: url(/html/assets/images/nav-pack/arrow-left.svg) 0 0/100% no-repeat; }
+      background: url(/assets/images/nav-pack/arrow-left.svg) 0 0/100% no-repeat; }
     main .clients .container .slick-prev::before {
       content: ""; }
     main .clients .container .slick-next.slick-arrow {
       right: -20px;
       width: 50px;
       height: 50px;
-      background: url(/html/assets/images/nav-pack/arrow-right.svg) 0 0/100% no-repeat; }
+      background: url(/assets/images/nav-pack/arrow-right.svg) 0 0/100% no-repeat; }
     main .clients .container .slick-next::before {
       content: ""; }
     main .clients .container ul .slick-list {
@@ -1501,7 +1501,7 @@ main .cases .container .cases-slider .slick-track .slick-slide .item-container .
         max-width: 100%;
         display: inline-block; }
   main .form {
-    background-image: url(/html/assets/images/Sform.svg);
+    background-image: url(/assets/images/Sform.svg);
     background-repeat: no-repeat;
     background-position: 50% -3%;
     margin: 100px 0 50px 0;
@@ -1552,7 +1552,6 @@ main .cases .container .cases-slider .slick-track .slick-slide .item-container .
             main .form .container form .sendler .form__left-child p {
               font-weight: 600;
               margin-top: 8px;
-              margin-bottom: 18px;
               font-size: 14px;
               font-family: "Nunito";
               color: #707b9b; }
@@ -1560,6 +1559,14 @@ main .cases .container .cases-slider .slick-track .slick-slide .item-container .
                 width: 100%;
                 text-align: center;
                 margin-top: 14px; }
+              main .form .container form .sendler .form__left-child p.--defence {
+                width: 100%;
+                margin: 0;
+                text-align: center;
+                margin-bottom: 9px;
+                margin-top: 9px; }
+              main .form .container form .sendler .form__left-child p a {
+                color: #e81e1e; }
             main .form .container form .sendler .form__left-child input {
               font-family: "Nunito", regular;
               width: 100%;
@@ -1682,6 +1689,64 @@ main .cases .container .cases-slider .slick-track .slick-slide .item-container .
               border: #707070;
               border-radius: 50%;
               cursor: pointer; }
+  main .cookie {
+    background: white;
+    width: 100%;
+    height: 100%;
+    margin: 100px 0 0 0; }
+    main .cookie p {
+      font-size: 16px; }
+    main .cookie .container {
+      border-left: 1px dotted black;
+      border-right: 1px dotted black;
+      max-width: 1000px; }
+      main .cookie .container .cookie_menu-title {
+        padding: 18px 0 10px;
+        border-bottom: 1px dotted black; }
+        main .cookie .container .cookie_menu-title h1 {
+          font-family: "Nunito";
+          font-size: 50px; }
+      main .cookie .container .cookie-info {
+        padding-top: 20px; }
+        main .cookie .container .cookie-info h2 {
+          text-align: left;
+          font-size: 21px;
+          line-height: 23px;
+          margin-bottom: 20px; }
+        main .cookie .container .cookie-info p {
+          margin: 0 0 10px; }
+      main .cookie .container .cookie-close {
+        padding-top: 20px; }
+        main .cookie .container .cookie-close ul {
+          padding-left: 15px;
+          color: #686868;
+          font-size: 14px;
+          margin: 0;
+          list-style: disc; }
+        main .cookie .container .cookie-close li {
+          margin-top: 10px;
+          font-size: 15px; }
+          main .cookie .container .cookie-close li a {
+            color: #28387e; }
+        main .cookie .container .cookie-close h2 {
+          text-align: left;
+          font-size: 21px;
+          line-height: 23px;
+          margin-bottom: 20px; }
+        main .cookie .container .cookie-close ol {
+          list-style: decimal;
+          padding-left: 15px;
+          font-size: 14px;
+          margin: 0; }
+      main .cookie .container .last-cookie {
+        padding-top: 20px; }
+        main .cookie .container .last-cookie h2 {
+          text-align: left;
+          font-size: 21px;
+          line-height: 23px;
+          margin-bottom: 20px; }
+        main .cookie .container .last-cookie p {
+          margin: 0 0 20px; }
 
 ::-webkit-scrollbar {
   width: 10px;
@@ -1768,6 +1833,67 @@ footer {
           color: #fff; }
         footer .container .footer-content .contacts .contacts-container .item img {
           margin-right: 10px; }
+
+.cookies {
+  display: none;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: auto;
+  top: auto;
+  background-color: #141823;
+  color: #fff;
+  z-index: 9999; }
+
+.cookies_info {
+  height: 100px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.cookies_text {
+  font-family: "Nunito";
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #fff; }
+
+.cookies_link {
+  color: #ffffff;
+  font-family: "Nunito";
+  font-size: 18px;
+  text-decoration: underline; }
+
+.cookies_link:hover {
+  color: #ffffff; }
+
+.cookies_button {
+  height: 40px;
+  border-radius: 20px;
+  border: solid 1px #fff;
+  font-family: "Nunito";
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  background: none;
+  width: 80px;
+  cursor: pointer; }
 
 /* Media queryes always end*/
 @media (min-width: 1600px) {
@@ -1885,7 +2011,10 @@ footer {
 
 @media only screen and (max-width: 768px) {
   .container {
-    max-width: 100vw; }
+    max-width: 100vw !important; }
+  main .cookie .container .cookie_menu-title h1 {
+    text-align: center;
+    font-size: 40px; }
   footer .container .footer-content {
     -ms-flex-pack: distribute;
         justify-content: space-around; }
@@ -1974,7 +2103,10 @@ footer {
         main .form .container form .sendler .form__right-child .indicators .indicator-input {
           width: 100%; }
     main .form .container form .sendler .slider {
-      display: none; } }
+      display: none; }
+  main .cookie .container .cookie_menu-title h1 {
+    text-align: center;
+    font-size: 40px; } }
 
 /* Container Points*/
 @media (min-width: 768px) {
@@ -1997,3 +2129,123 @@ footer {
 @media (width: 1600px) {
   .menu {
     width: 56%; } }
+
+.cookie {
+  background: white;
+  width: 100%;
+  height: 100%;
+  margin: 100px 0 0 0; }
+  .cookie p {
+    font-size: 16px; }
+  .cookie .container {
+    border-left: 1px dotted black;
+    border-right: 1px dotted black;
+    max-width: 1000px; }
+    .cookie .container .cookie_menu-title {
+      padding: 18px 0 10px;
+      border-bottom: 1px dotted black; }
+      .cookie .container .cookie_menu-title h1 {
+        font-family: "Nunito";
+        font-size: 50px; }
+    .cookie .container .cookie-info {
+      padding-top: 20px; }
+      .cookie .container .cookie-info h2 {
+        text-align: left;
+        font-size: 21px;
+        line-height: 23px;
+        margin-bottom: 20px; }
+      .cookie .container .cookie-info p {
+        margin: 0 0 10px; }
+    .cookie .container .cookie-close {
+      padding-top: 20px; }
+      .cookie .container .cookie-close ul {
+        padding-left: 15px;
+        color: #686868;
+        font-size: 14px;
+        margin: 0;
+        list-style: disc; }
+      .cookie .container .cookie-close li {
+        margin-top: 10px;
+        font-size: 15px; }
+        .cookie .container .cookie-close li a {
+          color: #28387e; }
+      .cookie .container .cookie-close h2 {
+        text-align: left;
+        font-size: 21px;
+        line-height: 23px;
+        margin-bottom: 20px; }
+      .cookie .container .cookie-close ol {
+        list-style: decimal;
+        padding-left: 15px;
+        font-size: 14px;
+        margin: 0; }
+    .cookie .container .last-cookie {
+      padding-top: 20px; }
+      .cookie .container .last-cookie h2 {
+        text-align: left;
+        font-size: 21px;
+        line-height: 23px;
+        margin-bottom: 20px; }
+      .cookie .container .last-cookie p {
+        margin: 0 0 20px; }
+
+.cookies {
+  display: none;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: auto;
+  top: auto;
+  background-color: #141823;
+  color: #fff;
+  z-index: 9999; }
+
+.cookies_info {
+  height: 100px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.cookies_text {
+  font-family: "Nunito";
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #fff; }
+
+.cookies_link {
+  color: #ffffff;
+  font-family: "Nunito";
+  font-size: 18px;
+  text-decoration: underline; }
+
+.cookies_link:hover {
+  color: #ffffff; }
+
+.cookies_button {
+  height: 40px;
+  border-radius: 20px;
+  border: solid 1px #fff;
+  font-family: "Nunito";
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  background: none;
+  width: 80px;
+  cursor: pointer; }

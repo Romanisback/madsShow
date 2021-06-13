@@ -16,46 +16,46 @@
                     background-repeat: no-repeat;
                     backdrop-filter: blur(2px);
                     border-radius: 15px;
-                    overflow: hidden;
+                    overflow: hidden;    
                     /*
                     Модификатор используется для смены background'a
                     в кейсах
                     */
                     &.--lineage{
-                        background-image: url(/html/assets/images/case/lineage.png);
+                        background-image: url(/assets/images/case/lineage.png);
                         animation-delay: $ani-1_4-cases-1;
                     }
                     &.--skillbox{
-                        background: url(/html/assets/images/case/skillbox.svg);
+                        background: url(/assets/images/case/skillbox.svg);
                         animation-delay: $ani-1_5-cases-2;
                     }
                     &.--plarium{
-                        background-image: url(/html/assets/images/case/raid.svg);
+                        background-image: url(/assets/images/case/raid.svg);
                         animation-delay: $ani-1_6-cases-3;
                     }
                     &.--zaka{
-                        background-image: url(/html/assets/images/case/Zaka-zaka.svg);
+                        background-image: url(/assets/images/case/Zaka-zaka.svg);
                         animation-delay: $ani-1_7-cases-4;
                     }
                     &.--tld{
-                        background-image: url(/html/assets/images/case/total-down.svg);
+                        background-image: url(/assets/images/case/total-down.svg);
                         animation-delay: $ani-1_8-cases-5;
                     }
                     &.--wot{
-                        background-image: url(/html/assets/images/case/Wot.svg);
+                        background-image: url(/assets/images/case/Wot.svg);
                         animation-delay: $ani-1_9-cases-6;
                     }
                     &.--csgofast{
-                        background-image: url(/html/assets/images/case/fast.svg);
+                        background-image: url(/assets/images/case/fast.svg);
                     }
                     &.--english{
-                        background-image: url(/html/assets/images/case/English.svg);
+                        background-image: url(/assets/images/case/English.svg);
                     }
                     &.--ftc{
-                        background-image: url(/html/assets/images/case/ftc.svg);
+                        background-image: url(/assets/images/case/ftc.svg);
                     }
                     &.--crunchy{
-                       background-image: url(/html/assets/images/case/crunchyroll.jpg);
+                       background-image: url(/assets/images/case/crunchyroll.jpg);
                     }
                     .item_child{
                         backdrop-filter: blur(1px);
@@ -125,7 +125,7 @@
                                 margin: 0;
                                 width: 95%;
                                 transition: height .3s ease-out 50ms;
-                            }
+                            }   
                         }
                     }
                     &:hover{
@@ -148,7 +148,7 @@
                         }
                     }
                 }
-
+                
             }
         }
     }
@@ -156,7 +156,7 @@
         left: -20px;
         width: 50px;
         height: 50px;
-        background: url(/html/assets/images/nav-pack/arrow-left.svg) 0 0 / 100% no-repeat;
+        background: url(/assets/images/nav-pack/arrow-left.svg) 0 0 / 100% no-repeat;
      }
      .slick-prev::before{
          content: "";
@@ -165,7 +165,7 @@
          right: -20px;
          width: 50px;
          height: 50px;
-         background: url(/html/assets/images/nav-pack/arrow-right.svg) 0 0 / 100% no-repeat;
+         background: url(/assets/images/nav-pack/arrow-right.svg) 0 0 / 100% no-repeat;
      }
      .slick-next::before{
          content: "";

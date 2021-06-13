@@ -8,8 +8,8 @@
             <div class="advantages-container">
                 <div class="item --item1 animate__animated animate__fadeIn">
                     <div class="item-rk-container">
-                        <img src="{{ asset('dist/assets/images/blockq.svg') }}" alt="">
-                        <img src="{{ asset('dist/assets/images/rect.svg') }}" alt="">
+                        <img src="{{ asset('assets/images/blockq.svg') }}" alt="">
+                        <img src="{{ asset('assets/images/rect.svg') }}" alt="">
                     </div>
                     <div class="item-container">
                         <div class="title">Отдел маркетинга</div>
@@ -19,8 +19,8 @@
                 </div>
                 <div class="item --item2 animate__animated animate__fadeIn">
                     <div class="item-rk-container">
-                        <img src="{{ asset('dist/assets/images/advantage/animation.png') }}" alt="">
-                        <img src="{{ asset('dist/assets/images/rect.svg') }}" alt="">
+                        <img src="{{ asset('assets/images/advantage/animation.png') }}" alt="">
+                        <img src="{{ asset('assets/images/rect.svg') }}" alt="">
                     </div>
                     <div class="item-container">
                         <div class="title">Стабильность</div>
@@ -30,8 +30,8 @@
                 </div>
                 <div class="item --item3 animate__animated animate__fadeIn">
                     <div class="item-rk-container">
-                        <img src="{{ asset('dist/assets/images/advantage/stat.png') }}" alt="">
-                        <img src="{{ asset('dist/assets/images/rect.svg') }}" alt="">
+                        <img src="{{ asset('assets/images/advantage/stat.png') }}" alt="">
+                        <img src="{{ asset('assets/images/rect.svg') }}" alt="">
                     </div>
                     <div class="item-container">
                         <div class="title">Свежие цены</div>
@@ -41,8 +41,8 @@
                 </div>
                 <div class="item --item4 animate__animated animate__fadeIn">
                     <div class="item-rk-container">
-                        <img src="{{ asset('dist/assets/images/advantage/cube.png') }}" alt="">
-                        <img src="{{ asset('dist/assets/images/rect.svg') }}" alt="">
+                        <img src="{{ asset('assets/images/advantage/cube.png') }}" alt="">
+                        <img src="{{ asset('assets/images/rect.svg') }}" alt="">
                     </div>
                     <div class="item-container">
                         <div class="title">Безопасность</div>
@@ -52,8 +52,8 @@
                 </div>
                 <div class="item --item5 animate__animated animate__fadeIn">
                     <div class="item-rk-container">
-                        <img src="{{ asset('dist/assets/images/advantage/Pocket-Knife.png') }}" alt="">
-                        <img src="{{ asset('dist/assets/images/rect.svg') }}" alt="">
+                        <img src="{{ asset('assets/images/advantage/Pocket-Knife.png') }}" alt="">
+                        <img src="{{ asset('assets/images/rect.svg') }}" alt="">
                     </div>
                     <div class="item-container">
                         <div class="title">Универсальность</div>
@@ -63,8 +63,8 @@
                 </div>
                 <div class="item --item6 animate__animated animate__fadeIn">
                     <div class="item-rk-container">
-                        <img src="{{ asset('dist/assets/images/advantage/strategic-plan.png') }}" alt="">
-                        <img src="{{ asset('dist/assets/images/rect.svg') }}" alt="">
+                        <img src="{{ asset('assets/images/advantage/strategic-plan.png') }}" alt="">
+                        <img src="{{ asset('assets/images/rect.svg') }}" alt="">
                     </div>
                     <div class="item-container">
                         <div class="title">Маркетинговые стратегии</div>

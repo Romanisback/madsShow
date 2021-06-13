@@ -2,10 +2,10 @@ $("#sendMail").on("click", function () {
     const email = $("#email").val().trim();
     const name = $("#name").val().trim();
     const message = $("#message").val().trim();
-    const value = $("#value").val().trim();
-    const view = $("#view").val().trim();
-    const click = $("#click").val().trim();
-    const range = $(".slider");
+    // const value = $("#value").val();
+    // const view = $("#view").val();
+    // const click = $("#click").val();
+    // const range = $(".slider");
 
     if (email == "" & name == "" & message.length == "") {
         alertify.alert("Так не пойдет, введите свои данные", function(){
@@ -53,12 +53,13 @@ $("#sendMail").on("click", function () {
           }).setHeader('Сообщение').set({'label': 'Окей'})
         return false;
     }
-    if (value == '' & view == '' & click == ''){
-        value.trigger("reset");
-        view.trigger("reset");
-        click.trigger("reset");
-        range.trigger("reset");
-    }
-   
+    // else if (value.val() == '' & view.val() == '' & click.val() == ''){
+    //     value.text("30000");
+    //     view.text("300000");
+    //     click.text("6000");
+    //     range.trigger("reset")
+    // }
+    
+  
 });
 

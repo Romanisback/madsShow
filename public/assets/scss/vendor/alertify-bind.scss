@@ -29,7 +29,7 @@
     background-color: $primary !important;
 }
 button.ajs-close{
-    background-image: url(/html/assets/images/close-button.svg )!important;
+    background-image: url(/assets/images/close-button.svg )!important;
     background-size: 15px;
     background-color: $primary !important;
 }
@@ -41,7 +41,7 @@ button.ajs-close{
     font-family: $font-family-normal;
     background-color: $primary !important;
     border-bottom: none !important;
-    color: $white !important;
+    color: $white !important; 
 }
 .ajs-content{
     color: $white;

@@ -1,7 +1,7 @@
 @import 'vars';
-@import 'vendor/reset';
-@import 'vendor/slick';
-@import 'vendor/slick-theme';
+@import 'vendor/reset.scss';
+@import 'vendor/slick.scss';
+@import 'vendor/slick-theme.scss';
 
 
 *,
@@ -41,12 +41,16 @@ body {
 
 /* Header static*/
 @import "blocks/header";
-@import "blocks/loader";
-@import "blocks/container-page";
-@import "vendor/alertify-bind";
+@import "blocks/loader.scss";
+@import "blocks/container-page.scss";
+@import "vendor/alertify-bind.scss";
 /* Main generate */
-@import "blocks/main";
-@import "blocks/footer";
+@import "blocks/main.scss";
+@import "blocks/footer.scss";
+@import "blocks/cookies-alert.scss";
 
 /* Media queryes always end*/
-@import "blocks/media";
+@import "blocks/media.scss";
+
+@import "blocks/cookies.scss";
+@import "blocks/cookies-alert";

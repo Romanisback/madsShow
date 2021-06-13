@@ -51,3 +51,12 @@ $ani-clients: 2.2s;
 
 $style-btn-gradient-1: #FFDD00;
 $style-btn-gradient-2: #FC3B3B;
+
+
+@mixin h2-cookie{
+    text-align: left;
+    font-size: 21px;
+    line-height: 23px;
+    margin-bottom: 20px;
+   
+}
