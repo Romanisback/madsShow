@@ -1,0 +1,137 @@
+├───app
+│   ├───Console
+│   ├───Exceptions
+│   ├───Http
+│   │   ├───Controllers
+│   │   │   └───Admin
+│   │   └───Middleware
+│   ├───Models
+│   └───Providers
+├───bootstrap
+│   └───cache
+├───config
+├───database
+│   ├───factories
+│   ├───migrations
+│   └───seeds
+├───public
+│   ├───adm
+│   │   ├───css
+│   │   │   ├───sass
+│   │   │   │   ├───base
+│   │   │   │   ├───config
+│   │   │   │   ├───gui
+│   │   │   │   ├───modules
+│   │   │   │   │   ├───forms
+│   │   │   │   │   ├───mailbox
+│   │   │   │   │   ├───maps
+│   │   │   │   │   ├───pages
+│   │   │   │   │   ├───tables
+│   │   │   │   │   └───ui-elements
+│   │   │   │   ├───skins
+│   │   │   │   └───vendor
+│   │   │   │       └───bourbon
+│   │   │   │           ├───addons
+│   │   │   │           ├───css3
+│   │   │   │           ├───functions
+│   │   │   │           ├───helpers
+│   │   │   │           └───settings
+│   │   │   └───skins
+│   │   ├───images
+│   │   │   ├───patterns
+│   │   │   └───projects
+│   │   ├───js
+│   │   └───vendor
+│   │       ├───bootstrap
+│   │       │   ├───css
+│   │       │   ├───fonts
+│   │       │   └───js
+│   │       ├───bootstrap-fileupload
+│   │       ├───font-awesome
+│   │       │   ├───css
+│   │       │   └───fonts
+│   │       ├───jquery
+│   │       ├───jquery-browser-mobile
+│   │       ├───jquery-placeholder
+│   │       ├───modernizr
+│   │       └───nanoscroller
+│   ├───assets
+│   │   ├───images
+│   │   │   ├───advantage
+│   │   │   ├───favicon
+│   │   │   ├───footer
+│   │   │   ├───main
+│   │   │   └───nav-pack
+│   │   ├───js
+│   │   ├───php
+│   │   └───scss
+│   │       ├───blocks
+│   │       ├───media-size
+│   │       └───vendor
+│   ├───dist
+│   │   └───assets
+│   │       ├───css
+│   │       ├───images
+│   │       │   ├───advantage
+│   │       │   ├───favicon
+│   │       │   ├───footer
+│   │       │   ├───main
+│   │       │   └───nav-pack
+│   │       └───js
+│   ├───html
+│   │   ├───assets
+│   │   │   ├───images
+│   │   │   │   ├───advantage
+│   │   │   │   ├───bloggers
+│   │   │   │   ├───bloggers-adaptive
+│   │   │   │   ├───case
+│   │   │   │   ├───customers
+│   │   │   │   ├───favicon
+│   │   │   │   ├───footer
+│   │   │   │   ├───main
+│   │   │   │   └───nav-pack
+│   │   │   ├───js
+│   │   │   ├───php
+│   │   │   └───scss
+│   │   │       ├───blocks
+│   │   │       ├───media-size
+│   │   │       └───vendor
+│   │   ├───layouts
+│   │   └───partials
+│   └───pdf
+├───resources
+│   ├───js
+│   ├───lang
+│   │   ├───en
+│   │   └───ru
+│   ├───sass
+│   └───views
+│       ├───admin
+│       │   ├───auth
+│       │   ├───bloggers
+│       │   ├───cases
+│       │   ├───clients
+│       │   ├───components
+│       │   ├───layouts
+│       │   │   └───blocks
+│       │   ├───orders
+│       │   ├───profile
+│       │   ├───reviews
+│       │   └───users
+│       └───site
+│           └───layouts
+│               └───blocks
+├───routes
+├───storage
+│   ├───app
+│   │   └───public
+│   ├───framework
+│   │   ├───cache
+│   │   │   └───data
+│   │   ├───sessions
+│   │   ├───testing
+│   │   └───views
+│   └───logs
+└───tests
+    ├───Feature
+    └───Unit
